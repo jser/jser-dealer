@@ -16,5 +16,8 @@
     "power-assert": "^0.10.1",
     "react": "^0.12.2",
     "watchify": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.2"
   }
 }

@@ -1,0 +1,21 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$main-font-size: 50px;
+
+main * {
+  display: block;
+  border: 1px solid #0000FF;
+  font-size: $main-font-size;
+}
+
+main {
+  @extend .row;
+}
+
+%half-of-screen {
+  @extend .col-md-6;
+}
+
+.draft-article-list, .candidate-article-list {
+  @extend %half-of-screen;
+}
