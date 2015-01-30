@@ -1,0 +1,1258 @@
+{
+    "list": [
+        {
+            "title": "substack/faucet",
+            "url": "https://github.com/substack/faucet",
+            "content": "TAP系の出力を見やすく表示するCLI",
+            "tags": [
+                "node.js",
+                "testing"
+            ],
+            "date": "2014-01-01T03:14:27.201Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release v0.2.0: 0.2.0 · nzakas/eslint",
+            "url": "https://github.com/nzakas/eslint/releases/tag/v0.2.0",
+            "content": "eslint 0.2.0リリース。\nルールの追加等",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-02T02:26:11.626Z",
+            "relatedLinks": [
+                {
+                    "title": "0.2.0 · 72d0fce · nzakas/eslint",
+                    "url": "https://github.com/nzakas/eslint/commit/72d0fce14428716f82f5526a0a3097c50b491e97"
+                }
+            ]
+        },
+        {
+            "title": "Test-driving a Node.JS API",
+            "url": "http://www.jorisooms.be/testing-your-node-api-with-supertest/",
+            "content": "supertestを使ったNodeアプリのAPIをテスト駆動開発していくチュートリアル",
+            "tags": [
+                "node.js",
+                "API",
+                "testing",
+                "tutorial"
+            ],
+            "date": "2014-01-02T12:43:22.077Z",
+            "relatedLinks": [
+                {
+                    "title": "visionmedia/supertest",
+                    "url": "https://github.com/visionmedia/supertest"
+                }
+            ]
+        },
+        {
+            "title": "YAND - Yet Another Node.js Documentation",
+            "url": "http://nodemanja.herokuapp.com/",
+            "content": "Node.jsのドキュメントビューアサイト",
+            "tags": [
+                "node.js",
+                "リファレンス",
+                "document"
+            ],
+            "date": "2014-01-03T13:40:29.338Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "jQuery Mobile 1.4.0 Released | jQuery Mobile",
+            "url": "http://blog.jquerymobile.com/2013/12/23/jquery-mobile-1-4-0-released/",
+            "content": "jQuery Mobile 1.4.0リリース。",
+            "tags": [
+                "jQuery",
+                "mobile",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-05T08:12:53.684Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Getting Started With Gulp | Travis Maynard",
+            "url": "http://travismaynard.com/writing/getting-started-with-gulp",
+            "content": "タスク実行ツールのgulpについての導入方法や設定コードの書き方についてのチュートリアル",
+            "tags": [
+                "gulp",
+                "JavaScript",
+                "console",
+                "Tools",
+                "tutorial"
+            ],
+            "date": "2014-01-06T05:25:39.613Z",
+            "relatedLinks": [
+                {
+                    "title": "gulp.js - the streaming build system",
+                    "url": "http://gulpjs.com/"
+                }
+            ]
+        },
+        {
+            "title": "Koa 0.2.0 — Code adventures — Medium",
+            "url": "https://medium.com/code-adventures/a3a046a04836",
+            "content": "NodeのウェブフレームワークKoa 0.2.0リリース。\nSocketのエラーハンドリング、Debug用のComposeモジュールの改善等",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-06T12:02:42.370Z",
+            "relatedLinks": [
+                {
+                    "title": "koajs/compose",
+                    "url": "https://github.com/koajs/compose"
+                }
+            ]
+        },
+        {
+            "title": "JavaScript Stringでサロゲートペアを扱う - teppeis blog",
+            "url": "http://teppeis.hatenablog.com/entry/2014/01/surrogate-pair-in-javascript",
+            "content": "サロゲートペアを考慮した文字数カウント(正規表現、ES6 Iterator)\nコードポイントの取得/文字生成",
+            "tags": [
+                "JavaScript",
+                "firefox"
+            ],
+            "date": "2014-01-06T12:18:09.412Z",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript has a Unicode problem · Mathias Bynens",
+                    "url": "http://mathiasbynens.be/notes/javascript-unicode"
+                }
+            ]
+        },
+        {
+            "title": "Functional JavaScript for crawling the Web | Code | Nicolas Perriault",
+            "url": "https://nicolas.perriault.net/code/2013/functional-javascript-for-crawling-the-web/",
+            "content": "FunctionalアプローチでDOMを走査する話。\n関数呼出を重ねすぎると読みにくくなるので、関数合成的なsequence関数を作ったり、ES6の=>やRest Argumentsの利用などを使ってより小さく書くなどしてる。\nそれぞれが関数であるのでテスト等も書きやすい。",
+            "tags": [
+                "JavaScript",
+                "DOM"
+            ],
+            "date": "2014-01-06T12:51:16.146Z",
+            "relatedLinks": [
+                {
+                    "title": "functional javascript",
+                    "url": "http://www.functionaljavascript.com/"
+                }
+            ]
+        },
+        {
+            "title": "D3 Tips and Tricks by Malcolm Maclean [Leanpub PDF/iPad/Kindle]",
+            "url": "https://leanpub.com/D3-Tips-and-Tricks",
+            "content": "D3.jsについての書籍\n$0から任意の値段購入できる",
+            "tags": [
+                "d3.js",
+                "book"
+            ],
+            "date": "2014-01-06T13:11:31.972Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Node Streams for APIs - collect {thoughts}",
+            "url": "http://blog.drewolson.org/blog/2014/01/04/node-streams-for-apis",
+            "content": "NodeのStreamを使ったAPIの実装について。\nテストの書き方、Streamの実装方法をAPIレンスポンスを返すものを書きながら見ていく話",
+            "tags": [
+                "node.js"
+            ],
+            "date": "2014-01-06T13:29:07.090Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Advanced Features in Sinon · Ken Powers",
+            "url": "http://www.kenpowers.net/blog/advanced-features-in-sinon/",
+            "content": "Sinon.jsのFake Timer、spy、Fake Serversを使ったテストについて。\n",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "date": "2014-01-06T13:34:46.110Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Managing the Asynchronous Nature of Node.js | Nettuts+",
+            "url": "http://net.tutsplus.com/tutorials/javascript-ajax/managing-the-asynchronous-nature-of-node-js/",
+            "content": "3種類の非同期なコードの構造の改善について。\nEvenetEmitterを使った方法、Q(Promises)を使った方法、stepを使った方法、それぞれの実装とメリット/デメリットについて書かれてる",
+            "tags": [
+                "JavaScript",
+                "node.js"
+            ],
+            "date": "2014-01-06T13:44:02.349Z",
+            "relatedLinks": [
+                {
+                    "title": "kriskowal/q",
+                    "url": "https://github.com/kriskowal/q"
+                },
+                {
+                    "title": "creationix/step",
+                    "url": "https://github.com/creationix/step"
+                }
+            ]
+        },
+        {
+            "title": "Dependency injection in JavaScript",
+            "url": "http://krasimirtsonev.com/blog/article/Dependency-injection-in-JavaScript",
+            "content": "JavaScriptでDIを実装してみるチュートリアル。\nAMDライクな依存関係を示すモジュールの定義をするアプローチとAngularJSみたいなリフレクションで関数定義から依存関係を取得するアプローチについて書かれてる",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "tutorial"
+            ],
+            "date": "2014-01-07T01:25:24.818Z",
+            "relatedLinks": [
+                {
+                    "title": "Merrick Christensen - JavaScript Dependency Injection",
+                    "url": "http://merrickchristensen.com/articles/javascript-dependency-injection.html"
+                }
+            ]
+        },
+        {
+            "title": "O'Reilly Japan - JavaScriptで学ぶ関数型プログラミング",
+            "url": "http://www.oreilly.co.jp/books/9784873116600/",
+            "content": "2014年01月18日発売\nFunctional JavaScriptの翻訳本",
+            "tags": [
+                "JavaScript",
+                "関数型言語",
+                "book"
+            ],
+            "date": "2014-01-07T03:33:06.377Z",
+            "relatedLinks": [
+                {
+                    "title": "functional javascript",
+                    "url": "http://www.functionaljavascript.com/"
+                }
+            ]
+        },
+        {
+            "title": "Amazon: HTML5 Web標準API バイブル [単行本]: 羽田野 太巳",
+            "url": "http://www.amazon.co.jp/o/ASIN/4883379167/amazon0abac-22/ref=nosim",
+            "content": "2014年1月20日発売\n様々なWebPlatform APIについてチュートリアル方式で解説した書籍",
+            "tags": [
+                "HTML5",
+                "WebPlatformAPI",
+                "book"
+            ],
+            "date": "2014-01-07T12:49:59.363Z",
+            "relatedLinks": [
+                {
+                    "title": "Twitter / futomi: 昨年末の時点でメジャーブラウザーに実装されている W3C A ...",
+                    "url": "https://twitter.com/futomi/status/420468660172369920"
+                }
+            ]
+        },
+        {
+            "title": "Ten reasons we switched from an icon font to SVG - Ian Feather",
+            "url": "http://Ianfeather.github.com/ianfeatherV3/ten-reasons-we-switched-from-an-icon-font-to-svg/",
+            "content": "アイコンフォントとSVGを比べた時にSVGのメリットについて。\n",
+            "tags": [
+                "fonts",
+                "SVG"
+            ],
+            "date": "2014-01-08T08:28:01.764Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Why I am switching to promises",
+            "url": "http://spion.github.io/posts/why-i-am-switching-to-promises.html",
+            "content": "Promiseの利点について。\nthrow-safeなエラーハンドリング、パフォーマンスとメモリ消費、promise.nodeifyを使ったコールバックスタイルとの互換性、Promiseの書き方やユースケース等まとまってる",
+            "tags": [
+                "JavaScript",
+                "Promises"
+            ],
+            "date": "2014-01-08T14:48:31.028Z",
+            "relatedLinks": [
+                {
+                    "title": "Promise nuggets",
+                    "url": "http://promise-nuggets.github.io/"
+                }
+            ]
+        },
+        {
+            "title": "RequireJS 2.1.10 Released ~ James Burke",
+            "url": "http://jrburke.com/2014/01/08/requirejs-2.1.10-released/",
+            "content": "RequireJS 2.1.10リリース。\nnodeIdCompat、bundlesオプションの追加",
+            "tags": [
+                "AMD",
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-09T07:06:27.320Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Frida",
+            "url": "http://www.frida.re/",
+            "content": "プロセスのトレース、関数のhook等を出来るツール https://github.com/frida/frida-gum/ \nV8とPythonを使ったバインディングがあり、JavaScriptでスクリプトを書いてプロセスを監視したりデバッグに使える。",
+            "tags": [
+                "JavaScript",
+                "python",
+                "software"
+            ],
+            "date": "2014-01-10T00:56:38.708Z",
+            "relatedLinks": [
+                {
+                    "title": "History",
+                    "url": "http://www.frida.re/docs/history/"
+                }
+            ]
+        },
+        {
+            "title": "Amazon: Dart for Absolute Beginners [Paperback]: David Kopec",
+            "url": "http://www.amazon.com/o/ASIN/1430264810/amazon0abac-22/ref=nosim",
+            "content": "2014年7月14日発売\nDart初心者向けの書籍",
+            "tags": [
+                "dart",
+                "book"
+            ],
+            "date": "2014-01-12T11:41:54.897Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Frida",
+            "url": "http://www.frida.re/",
+            "content": "プロセスのトレース、関数のhook等を出来るツール https://github.com/frida/frida-gum/ \nV8とPythonを使ったバインディングがあり、JavaScriptでスクリプトを書いてプロセスを監視したりデバッグに使える。",
+            "tags": [
+                "JavaScript",
+                "python",
+                "software"
+            ],
+            "date": "2014-01-10T00:56:38.708Z",
+            "relatedLinks": [
+                {
+                    "title": "History",
+                    "url": "http://www.frida.re/docs/history/"
+                }
+            ]
+        },
+        {
+            "title": "tooling/book-of-modern-frontend-tooling",
+            "url": "https://github.com/tooling/book-of-modern-frontend-tooling",
+            "content": "モダンなフロントエンド向けツールについて書かれている書籍。\nGithub上で書かれいるのでコントリビューションも出来る",
+            "tags": [
+                "book",
+                "Tools",
+                "browser"
+            ],
+            "date": "2014-01-10T14:49:22.740Z",
+            "relatedLinks": [
+                {
+                    "title": "Enterprise Web Development: From Desktop to Mobile",
+                    "url": "http://enterprisewebbook.com/"
+                }
+            ]
+        },
+        {
+            "title": "Release Infix macros · mozilla/sweet.js",
+            "url": "https://github.com/mozilla/sweet.js/releases/tag/v0.4.0",
+            "content": "マクロを扱えるsweet.js 0.4.0リリース",
+            "tags": [
+                "JavaScript",
+                "ReleaseNote",
+                "library",
+                "Tools"
+            ],
+            "date": "2014-01-11T09:02:21.814Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release Now passing all relevant tests · andyearnshaw/Intl.js",
+            "url": "https://github.com/andyearnshaw/Intl.js/releases/tag/v0.1.0",
+            "content": "ECMAScript Internationalization API (ECMA-402)の実装であるIntl.js 0.1.0がリリース。\ntest262 suiteを全てパスした",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "i18n",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-11T09:57:51.232Z",
+            "relatedLinks": [
+                {
+                    "title": "ECMAScript Internationalization API Specification – ECMA-402 Edition 1.0",
+                    "url": "http://www.ecma-international.org/ecma-402/1.0/"
+                },
+                {
+                    "title": "ECMAScript Language – test262",
+                    "url": "http://test262.ecmascript.org/"
+                }
+            ]
+        },
+        {
+            "title": "Amazon: サードパーティJavaScript [大型本]: Ben Vinegar, Anton Kovalyov, 水野貴明",
+            "url": "http://www.amazon.co.jp/o/ASIN/4048916580/amazon0abac-22/ref=nosim",
+            "content": "2014年2月1日発売\nThird-party JavaScriptの翻訳本\nhttp://thirdpartyjs.com/",
+            "tags": [
+                "JavaScript",
+                "セキュリティ",
+                "book"
+            ],
+            "date": "2014-01-12T02:49:26.521Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Promise nuggets",
+            "url": "http://promise-nuggets.github.io/",
+            "content": "Promisesに関するチュートリアル。\nPromisesの使い方やパターンについて書かれている",
+            "tags": [
+                "Promises",
+                "tutorial"
+            ],
+            "date": "2014-01-13T08:30:17.143Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "SVG - Super Vector Graphics",
+            "url": "http://tavendo.com/blog/post/super-vector-graphics/",
+            "content": "SVGについての連載。\nSVGの基本や利点や扱い方、クロスブラウザでの表示や最適化、fallbackについて書かれてる",
+            "tags": [
+                "SVG",
+                "tutorial",
+                "browser"
+            ],
+            "date": "2014-01-13T08:44:38.242Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Stop Writing JavaScript Compilers! Make Macros Instead",
+            "url": "http://jlongster.com/Stop-Writing-JavaScript-Compilers--Make-Macros-Instead",
+            "content": "JavaScriptのマクロを書けるsweet.jsの使い方とsweet.jsを使ってES6のsyntaxをいくつか実装したmacroについて",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "date": "2014-01-13T09:12:20.493Z",
+            "relatedLinks": [
+                {
+                    "title": "jlongster/es6-macros",
+                    "url": "https://github.com/jlongster/es6-macros"
+                }
+            ]
+        },
+        {
+            "title": "lo-th/Oimo.js",
+            "url": "https://github.com/lo-th/Oimo.js",
+            "content": "Three.jsを使った物理エンジンライブラリ。\nAS3のOimoPhysicsのJavaScriptポート。",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-01-13T11:11:07.310Z",
+            "relatedLinks": [
+                {
+                    "title": "ActionScript3.0用の3D物理エンジンを作ってみた – EL-EMENT blog",
+                    "url": "http://el-ement.com/blog/2012/10/08/as3-physics-engine/"
+                }
+            ]
+        },
+        {
+            "title": "groupon/testium",
+            "url": "https://github.com/groupon/testium",
+            "content": "WebDriverとmochaを使ったIntegration testを行えるツール。\nwebdriver-http-syncをベースにしていて同期的にテストを書けるのが特徴",
+            "tags": [
+                "node.js",
+                "webdriver",
+                "library",
+                "Tools"
+            ],
+            "date": "2014-01-13T11:39:53.326Z",
+            "relatedLinks": [
+                {
+                    "title": "Groupon: Node.js向け結合テストツールtestiumをオープンソースで提供 - ワザノバ | wazanova",
+                    "url": "http://wazanova.jp/items/895"
+                }
+            ]
+        },
+        {
+            "title": "Lineman | Build awesome web apps, easily.",
+            "url": "http://linemanjs.com/",
+            "content": "Yeomanのようなウェブアプリのワークフロー管理ツール。\nプロジェクトのテンプレート、ジェネレータやAPIのStubやProxy、Gruntのタスク管理等",
+            "tags": [
+                "JavaScript",
+                "console",
+                "Tools"
+            ],
+            "date": "2014-01-13T11:58:55.799Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "sweet.jsでshift/reset: 限定継続を使ってコールバック地獄から抜け出す - 標高+1m",
+            "url": "http://ympbyc.hatenablog.com/entry/2014/01/11/sweet_js%E3%81%A7shift/reset%3A_%E9%99%90%E5%AE%9A%E7%B6%99%E7%B6%9A%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%AF%E5%9C%B0%E7%8D%84%E3%81%8B%E3%82%89%E6%8A%9C",
+            "content": "sweet.jsを使ったshift/resetのような実装",
+            "tags": [
+                "JavaScript",
+                "sweet.js"
+            ],
+            "date": "2014-01-13T12:00:03.652Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ジェネレータの解説と非同期への適用 - Block Rockin’ Codes",
+            "url": "http://jxck.hatenablog.com/entry/2014-01-12/generator-screencaset",
+            "content": "NodeでのGeneratorについてのスクリーンキャスト。\ngeneratorの使い方、next()でどこまで進むか、非同期処理の同期化、ユーザー側とライブラリ側を分けるための抽象化(coライクのものを作る)、throwでのエラー処理、thunkifyのやってる事\n",
+            "tags": [
+                "node.js",
+                "動画"
+            ],
+            "date": "2014-01-13T12:22:22.736Z",
+            "relatedLinks": [
+                {
+                    "title": "visionmedia/co",
+                    "url": "https://github.com/visionmedia/co"
+                },
+                {
+                    "title": "visionmedia/node-thunkify",
+                    "url": "https://github.com/visionmedia/node-thunkify"
+                },
+                {
+                    "title": "Koa - next generation web framework for node.js",
+                    "url": "http://koajs.com/"
+                }
+            ]
+        },
+        {
+            "title": "Refactoring your JavaScript code with Grasp | Grasp - JavaScript structural search, replace, and refactor",
+            "url": "http://graspjs.com/blog/2014/01/07/refactoring-javascript-with-grasp/",
+            "content": "JS ASTを元にしたgrep/sedのようなツールであるGraspのユースケース紹介。\n実際にどのようにリファクタリングを行えるかが書かれてる",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "debug"
+            ],
+            "date": "2014-01-13T14:03:48.117Z",
+            "relatedLinks": [
+                {
+                    "title": "Graspを使ったJavaScriptのリファクタリング | JSer.info",
+                    "url": "http://jser.info/post/73202282881/grasp-javascript"
+                }
+            ]
+        },
+        {
+            "title": "The State of jQuery 2014 | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014/",
+            "content": "jQueryの現在と今後について。\njQuery CDNがhttpsに対応した",
+            "tags": [
+                "jQuery"
+            ],
+            "date": "2014-01-14T00:43:33.992Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "EndangeredMassa/bond",
+            "url": "https://github.com/endangeredmassa/bond",
+            "content": "シンプルなstubとspyの機能持ったライブラリ",
+            "tags": [
+                "JavaScript",
+                "library",
+                "testing"
+            ],
+            "date": "2014-01-14T01:17:02.443Z",
+            "relatedLinks": [
+                {
+                    "title": "Announcing: bond 1.0.0 - Massa Labs",
+                    "url": "http://massalabs.com/dev/2013/11/13/announcing-bond.html"
+                }
+            ]
+        },
+        {
+            "title": "The Definitive TypeScript Guide | Blog | SitePen",
+            "url": "http://www.sitepen.com/blog/2013/12/31/definitive-guide-to-typescript/",
+            "content": "TypeScriptチュートリアル",
+            "tags": [
+                "TypeScript",
+                "tutorial"
+            ],
+            "date": "2014-01-14T14:56:33.957Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "State of function decompilation in Javascript — Perfection Kills",
+            "url": "http://perfectionkills.com/state-of-function-decompilation-in-javascript/",
+            "content": "実装依存となってるFunction.prototype.toStringの挙動について。\n現在のブラウザの動作、ES6で追加された関数ではどうなるか、またユーザー定義、Proxy.createFunctionについて",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "date": "2014-01-15T00:55:43.414Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "libsass.js - An Emscripten Experiment | Rodney Rehm",
+            "url": "http://blog.rodneyrehm.de/archives/33-libsass.js-An-Emscripten-Experiment.html",
+            "content": "libsassをEmscriptenして、Sassをブラウザ上でコンパイル出来るようにする",
+            "tags": [
+                "Sass",
+                "C++",
+                "JavaScript"
+            ],
+            "date": "2014-01-16T01:01:56.087Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "WebStorm 8 EAP Starts Now | JetBrains WebStorm Blog",
+            "url": "http://blog.jetbrains.com/webstorm/2014/01/webstorm-8-eap/",
+            "content": "WebStorm 8EAPの最初のリリース。\nAngularJSのサポート改善、JetBrainsが買収したSpy-jsを使ったトレースツールが入った。\n",
+            "tags": [
+                "WebStorm",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-16T01:51:45.218Z",
+            "relatedLinks": [
+                {
+                    "title": "Spy-js JavaScriptトレースツール",
+                    "url": "http://blog.jetbrains.com/jp/2014/01/16/363"
+                }
+            ]
+        },
+        {
+            "title": "Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Modern JS Libraries: Eric Elliott: 9781491950296: Amazon.com: Books",
+            "url": "http://www.amazon.com/o/ASIN/1491950293/amazon0abac-22/ref=nosim",
+            "content": "2014年8月25日発売",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "date": "2014-01-16T12:15:28.016Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ng-conf 2014 - YouTube",
+            "url": "http://www.youtube.com/user/ngconfvideos",
+            "content": "ng-conf.org 2014の動画",
+            "tags": [
+                "AngularJS",
+                "動画"
+            ],
+            "date": "2014-01-16T22:40:48.706Z",
+            "relatedLinks": [
+                {
+                    "title": "ng-conf 2014 - The World's First Angular Conference in Salt Lake City, Utah",
+                    "url": "http://ng-conf.org/"
+                }
+            ]
+        },
+        {
+            "title": "mdevils/node-jscs",
+            "url": "https://github.com/mdevils/node-jscs/",
+            "content": "JavaScriptのコーディングスタイルチェックツール.\nJSHIntと一緒に使うことを想定してる",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-01-16T22:46:00.170Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "YUIConf 2013 - YouTube",
+            "url": "http://www.youtube.com/playlist?list=PLjKP9DUCzZorde6sLWHJ3GNd-6VrGrbqm",
+            "content": "YUI Conf 2013の動画が公開された",
+            "tags": [
+                "YUI",
+                "動画"
+            ],
+            "date": "2014-01-17T00:40:11.919Z",
+            "relatedLinks": [
+                {
+                    "title": "YUI Library",
+                    "url": "https://yuilibrary.com/yuiconf/2013/"
+                },
+                {
+                    "title": "YUIConf 2013 – An Amazing Two Days! - YUI Blog",
+                    "url": "http://www.yuiblog.com/blog/2013/11/08/yuiconf-2013-an-amazing-two-days/"
+                }
+            ]
+        },
+        {
+            "title": "twbs/bootstrap-sass",
+            "url": "https://github.com/twbs/bootstrap-sass",
+            "content": "Twitter bootstrapの公式Sassポート",
+            "tags": [
+                "Sass"
+            ],
+            "date": "2014-01-18T14:53:00.784Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Introduction to Browserify • Blake Embrey",
+            "url": "http://blakeembrey.com/articles/introduction-to-browserify/",
+            "content": "browserifyについての紹介。\nNodeのCoreモジュールやnpmモジュール、Transforms機能を使ってファイルのインライン化やビルド時の環境変数の埋め込み、browserifyのオプションについて",
+            "tags": [
+                "browserify"
+            ],
+            "date": "2014-01-19T06:46:31.604Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Optimizing large selector sets",
+            "url": "https://github.com/blog/1756-optimizing-large-selector-sets",
+            "content": "CSS Selectorのマッチを、最初にindexを作っておいてO(1)で探索をできるようにするSelectorSetについて。\njQueryと統合できるようになってて、`on`によるdelegate eventsを改善する。",
+            "tags": [
+                "jQuery",
+                "CSS",
+                "JavaScript"
+            ],
+            "date": "2014-01-19T08:15:48.634Z",
+            "relatedLinks": [
+                {
+                    "title": "josh/selector-set",
+                    "url": "https://github.com/josh/selector-set"
+                },
+                {
+                    "title": "josh/jquery-selector-set",
+                    "url": "https://github.com/josh/jquery-selector-set"
+                }
+            ]
+        },
+        {
+            "title": "jQuery UI 1.10.4 | jQuery UI Blog",
+            "url": "http://blog.jqueryui.com/2014/01/jquery-ui-1-10-4/",
+            "content": "jQuery UI 1.10.4リリース。\n",
+            "tags": [
+                "jQuery",
+                "UI",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-19T08:29:41.396Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ECMAScript 6: TC39 meetings, March–November 2013",
+            "url": "http://www.2ality.com/2014/01/tc39-march-november-2013.html",
+            "content": "2013年にECMAScript標準の管理をしてるTC39のミーティングで話された内容をまとめたもの。 ES6で追加される機能や仕様等について書かれている",
+            "tags": [
+                "ECMAScript",
+                "まとめ"
+            ],
+            "date": "2014-01-19T08:56:17.590Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "jQuery 1.11.0 RC1 and 2.1.0 RC1 Released | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2014/01/16/jquery-1-11-0-rc1-and-2-1-0-rc1-released/",
+            "content": "jQuery 1.11.0 RC1 と 2.1.0 RC1リリース",
+            "tags": [
+                "jQuery",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-19T11:05:48.017Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Writing A Better JavaScript Library For The DOM | Smashing Coding",
+            "url": "http://coding.smashingmagazine.com/2014/01/13/better-javascript-library-for-the-dom/",
+            "content": "better-domについての記事\nhttps://github.com/chemerisuk/better-dom\nネイティブの機能を使いつつ、jQueryの罠っぽい機能を避けるような作り",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "date": "2014-01-20T09:33:18.764Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Introduction to React // Speaker Deck",
+            "url": "https://speakerdeck.com/shuhei/introduction-to-react",
+            "content": "Facebookによって開発されてるVirtual DOMライブラリのReactについてのスライド。\n",
+            "tags": [
+                "DOM",
+                "facebook",
+                "library",
+                "スライド"
+            ],
+            "date": "2014-01-20T14:11:05.181Z",
+            "relatedLinks": [
+                {
+                    "title": "React | A JavaScript library for building user interfaces",
+                    "url": "http://facebook.github.io/react/"
+                }
+            ]
+        },
+        {
+            "title": "npmとbrowserifyを使ったクライアントサイドのウェブアプリ開発 | Web scratch",
+            "url": "http://efcl.info/2014/0120/res3605/",
+            "content": "browserifyについての紹介と使ってみての所感。\nnpmやbower経由でインストールしたライブラリの使い方、gulpやbeefyでのビルドのワークフロー、source mapを使ったデバッグ等",
+            "tags": [
+                "browserify",
+                "node.js",
+                "JavaScript",
+                "debug"
+            ],
+            "date": "2014-01-20T14:29:53.126Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Callbacks, Promises, Signals and Events | Blog | Miller Medeiros",
+            "url": "http://blog.millermedeiros.com/callbacks-promises-signals-and-events/",
+            "content": "コールバック、Promises、Signals、Eventsのそれぞれの特徴について簡単にまとめられてる。",
+            "tags": [
+                "JavaScript"
+            ],
+            "date": "2014-01-20T15:33:04.576Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ESLint 0.3.0 released - ESLint",
+            "url": "http://eslint.org/blog/2014/01/eslint-0.3.0-released/",
+            "content": "ESLint 0.3.0 リリース。\njsを設定ファイルとして使えなくなったけど、JSONにコメントが使えるように。\n.eslintignoreの追加、stylish format がデフォルトのレポーターに変更、ルールの追加や修正",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-01-21T02:30:00.495Z",
+            "relatedLinks": [
+                {
+                    "title": "ESLint",
+                    "url": "http://eslint.org/"
+                }
+            ]
+        },
+        {
+            "title": "Todd Anderson - BDD in JavaScript: CucumberJS",
+            "url": "http://custardbelly.com/blog/blog-posts/2014/01/08/bdd-in-js-cucumberjs/index.html",
+            "content": "CucumberJSについての紹介。\nシナリオの書き方",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "date": "2014-01-21T13:23:12.613Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "dunxrion/benchmartian · GitHub",
+            "url": "https://github.com/dunxrion/benchmartian",
+            "content": "benchmark.jsを使ったベンチマークを取るコマンドラインツール",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-01-22T02:44:42.165Z",
+            "relatedLinks": [
+                {
+                    "title": "Benchmark.js",
+                    "url": "http://benchmarkjs.com/"
+                }
+            ]
+        },
+        {
+            "title": "nodemon 1.0",
+            "url": "http://remysharp.com/2014/01/20/nodemon-1-0/",
+            "content": "Nodeのアプリケーションコードの変更を監視して、自動的にサーバを再起動できるnodemon 1.0リリース",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-23T00:29:48.376Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "watilde/tvm",
+            "url": "https://github.com/watilde/tvm",
+            "content": "TypeScriptバージョン管理コマンドラインツール",
+            "tags": [
+                "TypeScript",
+                "バージョン管理",
+                "console",
+                "Tools"
+            ],
+            "date": "2014-01-23T02:39:18.032Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Node v0.10.25 (Stable)",
+            "url": "http://blog.nodejs.org/2014/01/23/node-v0-10-25-stable/",
+            "content": "Node v0.10.25 リリース。\n",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-24T00:53:49.547Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "O'Reilly Japan - Backbone.jsアプリケーション開発ガイド",
+            "url": "http://www.oreilly.co.jp/books/9784873116587/",
+            "content": "2014年02月07日 発売\nDeveloping Backbone.js Applicationsの翻訳本。\nhttp://addyosmani.github.io/backbone-fundamentals/",
+            "tags": [
+                "JavaScript",
+                "backbone.js",
+                "翻訳",
+                "book"
+            ],
+            "date": "2014-01-24T07:17:26.466Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "jQuery 1.11 and 2.1 Released | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/",
+            "content": "jQuery 1.11 と 2.1リリース。\nそれぞれのモジュールがAMDとなった、+ 遅延初期化が可能に、npm/Bowerから利用できるように、sourcemap URLがデフォルトから外れた",
+            "tags": [
+                "jQuery",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-25T05:31:20.589Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Underscore.jsの入り口：連載｜gihyo.jp … 技術評論社",
+            "url": "http://gihyo.jp/dev/serial/01/underscorejs",
+            "content": "Underscore.jsについての連載。\n主要なメソッドの機能について紹介されてる",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-01-25T05:52:45.512Z",
+            "relatedLinks": [
+                {
+                    "title": "Underscore.js",
+                    "url": "http://underscorejs.org/"
+                },
+                {
+                    "title": "enja-oss/Underscore",
+                    "url": "https://github.com/enja-oss/Underscore"
+                }
+            ]
+        },
+        {
+            "title": "Marionette.js in Single Page Application // Speaker Deck",
+            "url": "https://speakerdeck.com/koba04/marionette-dot-js-in-single-page-application",
+            "content": "Backbone.jsをベースにしたMarionette.jsについて。\nViewの階層構造、Events、テンプレートなど",
+            "tags": [
+                "backbone.js",
+                "スライド",
+                "JavaScript"
+            ],
+            "date": "2014-01-25T13:23:28.125Z",
+            "relatedLinks": [
+                {
+                    "title": "Marionette.js in Single Page Applicationという話をした - 車輪を再発明 / koba04の日記",
+                    "url": "http://d.hatena.ne.jp/koba04/20140121/1390299728"
+                },
+                {
+                    "title": "Marionette.js",
+                    "url": "http://marionettejs.com/"
+                }
+            ]
+        },
+        {
+            "title": "実践Backbone.Marionette 現場の悩みと解決まで",
+            "url": "http://www.slideshare.net/ryumatsukano/backbonemarionette",
+            "content": "Marionette.jsについてのスライド。\nRailsと合わせてウェブサイトを作った事例 - サーバサイドのViewと合わせた使い方、ajaxとView、親子View。\nBackbone.jsでテストしやすいコードを書く事、テストダブルについて。",
+            "tags": [
+                "backbone.js",
+                "JavaScript",
+                "スライド"
+            ],
+            "date": "2014-01-25T13:58:37.356Z",
+            "relatedLinks": [
+                {
+                    "title": "和訳：BackboneとAngularを比較する - @lxyuma BLOG",
+                    "url": "http://lxyuma.hatenablog.com/entry/2013/11/05/074404"
+                }
+            ]
+        },
+        {
+            "title": "User Timing API: Understanding your Web App - HTML5 Rocks",
+            "url": "http://www.html5rocks.com/en/tutorials/webperformance/usertiming/",
+            "content": "User Timing APIでのパフォーマンス測定APIについて。\n",
+            "tags": [
+                "JavaScript",
+                "browserify",
+                "performance"
+            ],
+            "date": "2014-01-25T14:46:32.820Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Web Animations 1.0 Overview",
+            "url": "http://www.slideshare.net/cwdoh/kig29th-web-animations",
+            "content": "Web Animationsについてのスライド。\nCSS/SVG/requestAnimationFrameの問題点、どのような仕組み/モデルを持ってるか、現在のブラウザのサポート状況などについて",
+            "tags": [
+                "web",
+                "animation",
+                "スライド"
+            ],
+            "date": "2014-01-26T06:36:26.446Z",
+            "relatedLinks": [
+                {
+                    "title": "真面目なアニメーション (html5j 2013, Web Animations)",
+                    "url": "http://www.slideshare.net/brianskold/html5j-2013"
+                }
+            ]
+        },
+        {
+            "title": "Node.js - Gruntfile.js が長すぎてつらい人は gulp を使ってみよう - Qiita [キータ]",
+            "url": "http://qiita.com/shuhei@github/items/4aaa550d1ad30d2fc3b5",
+            "content": "gulpチュートリアル\n「Web デザイナーさん向け Grunt を使った コーディング作業の効率化、はじめの一歩」のgulp版",
+            "tags": [
+                "gulp",
+                "tutorial"
+            ],
+            "date": "2014-01-26T14:52:12.353Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Angular with Browserify from ng-conf 2014",
+            "url": "http://benclinkinbeard.com/posts/angular-with-browserify-from-ng-conf-2014/",
+            "content": "AngularとBroserifyについての発表動画とスライド。\nBroserifyについてWhat/Why、AngularJSとどう合わせるかのHowが書かれてる。",
+            "tags": [
+                "AngularJS",
+                "browserify",
+                "スライド",
+                "動画"
+            ],
+            "date": "2014-01-27T06:08:09.332Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "軽量オブザーバJSライブラリのrev.2をリリースした - snyk_s log",
+            "url": "http://saneyukis.hatenablog.com/entry/2014/01/25/213310",
+            "content": "シンプルなObserverライブラリ。\nObserverは関数ではなくhandleMessageを持ったオブジェクトに限定されている。\nDOMのhandleEventのような感じ",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-01-27T06:14:28.194Z",
+            "relatedLinks": [
+                {
+                    "title": "addEventListener, handleEvent and passing objects | The CSS Ninja - All things CSS, JavaScript & HTML",
+                    "url": "http://www.thecssninja.com/javascript/handleevent"
+                },
+                {
+                    "title": "イベントハンドリングなら handleEvent を使えば、Function#bind や $.proxy はたぶん要らない - latest log",
+                    "url": "http://d.hatena.ne.jp/uupaa/20101024/1287850660"
+                }
+            ]
+        },
+        {
+            "title": "HTML 5 JavaScript API Index",
+            "url": "http://html5index.org/",
+            "content": "HTML5関係のAPIのリファレンス\nhttps://github.com/stefanhaustein/html5index\nJavaDocっぽい感じ",
+            "tags": [
+                "HTML5",
+                "リファレンス",
+                "JavaScript",
+                "Java"
+            ],
+            "date": "2014-01-27T06:40:01.042Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Testing in Node.js | Nettuts+",
+            "url": "http://net.tutsplus.com/tutorials/javascript-ajax/testing-in-node-js/",
+            "content": "mocha+chaiを使いTDDな感じでmochaでのテストの書き方について学んでいくチュートリアル",
+            "tags": [
+                "node.js",
+                "testing",
+                "tutorial"
+            ],
+            "date": "2014-01-27T12:33:55.928Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "goodeggs/chai-webdriver",
+            "url": "https://github.com/goodeggs/chai-webdriver",
+            "content": "selenium-webdriverのassertionをchaiで書けるようにしたChai asertionライブラリ。",
+            "tags": [
+                "Selenium",
+                "testing"
+            ],
+            "date": "2014-01-27T12:36:58.027Z",
+            "relatedLinks": [
+                {
+                    "title": "Chai Webdriver | Bites from Good Eggs",
+                    "url": "http://bites.goodeggs.com/open_source/chai-webdriver/"
+                }
+            ]
+        },
+        {
+            "title": "Introduction to Component",
+            "url": "http://smalljs.org/package-managers/component-part-1/",
+            "content": "JavaScriptのパッケージ管理ツールであるComponentの紹介",
+            "tags": [
+                "JavaScript",
+                "管理"
+            ],
+            "date": "2014-01-28T01:54:38.733Z",
+            "relatedLinks": [
+                {
+                    "title": "component/component",
+                    "url": "https://github.com/component/component"
+                }
+            ]
+        },
+        {
+            "title": "AriaMinaei/pretty-error",
+            "url": "https://github.com/AriaMinaei/pretty-error",
+            "content": "nodeのエラースタックトレースを読みやすい形に整形、色付けするモジュール",
+            "tags": [
+                "node.js",
+                "debug",
+                "library"
+            ],
+            "date": "2014-01-28T05:21:03.848Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "安全でアクセシブルなアイコン・フォント",
+            "url": "http://hail2u.net/documents/bulletproof-icon-fonts.html",
+            "content": "アイコンフォントとfallbackについて。\nまたスクリーン・リーダーでは擬似要素のcontentも読まれるためWAI-ARIAの属性を使ってアイコンを読み上げされないようにすることについても書かれてる",
+            "tags": [
+                "CSS",
+                "fonts",
+                "SVG",
+                "WAI-ARIA"
+            ],
+            "date": "2014-01-28T12:05:16.037Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "CoffeeScript",
+            "url": "http://coffeescript.org",
+            "content": "CoffeeScript1.7.0リリース。\nメソッドチェインで`()`を書く必要がなくなり綺麗に繋げられるようになった。\n新たな演算子や構文が追加されてる。\n配列を展開する `...`や`**`、`//`、 `%%`等。\nnodeのrequire.extensionsに対する対応を改善\n",
+            "tags": [
+                "CoffeeScript",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-29T00:16:35.828Z",
+            "relatedLinks": [
+                {
+                    "title": "CoffeeScript upcoming changes.",
+                    "url": "https://gist.github.com/aseemk/8637896/"
+                },
+                { "title" : "release 1.6.4 · Issue #3141 · jashkenas/coffee-script", "url" : "https://github.com/jashkenas/coffee-script/issues/3141"}
+            ]
+        },
+        {
+            "title": "PhoneGap | Cordova 3.3.0 Now on PhoneGap Build",
+            "url": "http://phonegap.com/blog/2014/01/28/cordova-3_3-now-on-build/",
+            "content": "Cordova(PhoneGap) 3.3.0リリース",
+            "tags": [
+                "PhoneGap",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-29T00:37:38.564Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Chromium Blog: Run Chrome Apps on mobile using Apache Cordova",
+            "url": "http://blog.chromium.org/2014/01/run-chrome-apps-on-mobile-using-apache.html",
+            "content": " Chrome Apps をApache Cordovaをベースとしたモバイルアプリとして開発出来るtoolchainが公開された",
+            "tags": [
+                "PhoneGap",
+                "Chrome",
+                "Android",
+                "ios",
+                "app"
+            ],
+            "date": "2014-01-29T01:07:06.601Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release 1.9.0 / 2014-01-29 · chaijs/chai",
+            "url": "https://github.com/chaijs/chai/releases/tag/1.9.0",
+            "content": "assertionライブラリのchai 1.9.0リリース。\n` .throw()`のエラー表示改善",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-30T00:15:10.695Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "scottcorgan/prominent",
+            "url": "https://github.com/scottcorgan/prominent",
+            "content": "DOM event listnersをpromises的に書けるようにするライブラリ。\n",
+            "tags": [
+                "JavaScript",
+                "library",
+                "event"
+            ],
+            "date": "2014-01-30T02:36:33.726Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "polygonplanet/WSHModule",
+            "url": "https://github.com/polygonplanet/WSHModule",
+            "content": "Nodeライクなモジュール、ES5標準に近い挙動をするようなJScript実行環境。\nWSH/JScriptが本来持つモノに加えてモダンな機能を加えた/修正したような感じ",
+            "tags": [
+                "JavaScript",
+                "JScript",
+                "windows"
+            ],
+            "date": "2014-01-30T05:03:31.692Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Nightwatch.js",
+            "url": "http://nightwatchjs.org/",
+            "content": "Selenium WebDriver API を使ったE2Eテストを書けるテスティングフレームワーク。\nメソッドチェーンで動作とassertを書いてテストを書く",
+            "tags": [
+                "webdriver",
+                "Selenium",
+                "testing"
+            ],
+            "date": "2014-01-30T13:44:25.381Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Live edit browserified code in chrome devtools | thlorenz.com",
+            "url": "http://thlorenz.com/blog/live-editing-browserify",
+            "content": "Chrome DevToolsのファイルマッピング機能を使うことで、browserifyの元ファイルもChrome DevToolsから編集出来る",
+            "tags": [
+                "Chrome",
+                "browserify",
+                "debug",
+                "動画"
+            ],
+            "date": "2014-01-31T00:22:47.977Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Bootstrap 3.1.0 released · Bootstrap Blog",
+            "url": "http://blog.getbootstrap.com/2014/01/30/bootstrap-3-1-0-released/",
+            "content": "Bootstrap 3.1.0リリース。\nドキュメントサイトのリニューアル、公式のSassポート、Apache LicenseからMITへ、ビルドツールのアップデート",
+            "tags": [
+                "CSS",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-01-31T00:35:43.995Z",
+            "relatedLinks": [
+                {
+                    "title": "Release v3.1.0 · twbs/bootstrap",
+                    "url": "https://github.com/twbs/bootstrap/releases/tag/v3.1.0"
+                },
+                {
+                    "title": "Note about the license change from Apache to MIT by marclaporte · Pull Request #9075 · twbs/bootstrap",
+                    "url": "https://github.com/twbs/bootstrap/pull/9075"
+                }
+            ]
+        },
+        {
+            "title": "lukehoban/ecmascript-asyncawait",
+            "url": "https://github.com/lukehoban/ecmascript-asyncawait",
+            "content": "sweet.jsでasyncとawaitの実装。\n内部的にはgenerator、Promisesを使ってる",
+            "tags": [
+                "sweet.js",
+                "JavaScript"
+            ],
+            "date": "2014-01-31T00:48:21.106Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "paypal/bootstrap-accessibility-plugin",
+            "url": "https://github.com/paypal/bootstrap-accessibility-plugin",
+            "content": "Bootstrap 3にWAI-ARIAの属性を加えるようにしてアクセシビリティ的に良くするプラグイン",
+            "tags": [
+                "CSS",
+                "JavaScript",
+                "アクセシビリティ",
+                "WAI-ARIA"
+            ],
+            "date": "2014-01-31T12:02:49.403Z",
+            "relatedLinks": []
+        }
+    ]
+}

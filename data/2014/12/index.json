@@ -1,0 +1,1292 @@
+{
+    "list": [
+        {
+            "title": "knsv/mermaid",
+            "url": "https://github.com/knsv/mermaid",
+            "content": "テキストからD3を使ったフローチャートやダイアグラム等の図を作成してくれるライブラリ",
+            "tags": [
+                "図",
+                "JavaScript"
+            ],
+            "date": "2014-12-01T02:12:15.077Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release 0.11.1 · yyx990803/vue",
+            "url": "https://github.com/yyx990803/vue/releases/tag/0.11.1",
+            "content": "vue.js 0.11.1リリース。\nv-componentのスコープの変更、`wait-for`属性で特定のeventがemitされるまで待てるように、`v-style`にdataとしてCSSオブジェクトを渡してスタイルを適応出来るようになるなど",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-01T03:18:19.704Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Introduction | Full Stack JavaScript Engineering",
+            "url": "http://fsje.codefellows.org/",
+            "content": "フロントエンド全般についての知識について書かれたGitBookを使った電子書籍",
+            "tags": [
+                "JavaScript",
+                "book",
+                "Sass"
+            ],
+            "date": "2014-12-01T12:01:41.747Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Goodbye, Layout Invalidation: Animating SVGs With CSS Transforms | Charlie Marsh",
+            "url": "http://www.princeton.edu/~crmarsh/svg-performance/",
+            "content": "動かすSVG要素を分けてCSS transform等を使ってGPUで処理が出来るようにチューニングすることで、60FPSが出るようにパフォーマンス改善をする話",
+            "tags": [
+                "SVG",
+                "performance"
+            ],
+            "date": "2014-12-01T12:13:39.539Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "DailyJS: JavaScript Developer Survey 2014",
+            "url": "http://dailyjs.com/2014/12/01/javascript-survey/",
+            "content": "DailyJSのJavaScript開発者アンケート 2014の受付が開始された",
+            "tags": [
+                "JavaScript"
+            ],
+            "date": "2014-12-01T23:06:20.037Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "The State of JavaScript in 2015 - Jimmy Breck-McKye",
+            "url": "http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015",
+            "content": "AngularJS 2.0の発表でJavaScriptについて再考する話。\n新しいテクノロジーを扱う時はちゃんと疑問を持って接する事、企業製だからといって信用するのは別問題、モノリシックなフレームワークよりも役割が分けられたライブラリを選ぶ。\n著名なライブラリがどのような役割を持っているかについて。",
+            "tags": [
+                "JavaScript",
+                "AngularJS",
+                "library",
+                "thought"
+            ],
+            "date": "2014-12-01T23:23:25.597Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Amazon: 改訂版 Webデザイナーのための jQuery入門: 髙津戸 壮, 小原 司",
+            "url": "http://www.amazon.co.jp/dp/4774169447?tag=amazon0abac-22",
+            "content": "「WebデザイナーのためのjQuery入門」の改訂版",
+            "tags": [
+                "jQuery",
+                "book"
+            ],
+            "date": "2014-12-02T01:06:58.623Z",
+            "relatedLinks": [
+                {
+                    "title": "改訂版 WebデザイナーのためのjQuery入門 - Takazudo hamalog",
+                    "url": "http://hamalog.tumblr.com/post/104081966956/web-jquery"
+                }
+            ]
+        },
+        {
+            "title": "lafikl/RWDPerf",
+            "url": "https://github.com/lafikl/RWDPerf",
+            "content": "画面サイズやUA等のシミュレートして、あるURLで使ってない要素や画像の検出、通信量などのデータを一覧出来るパフォーマンス測定ツール",
+            "tags": [
+                "design",
+                "performance",
+                "Tools"
+            ],
+            "date": "2014-12-02T14:42:14.911Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Firefox — Notes (34.0) — Mozilla",
+            "url": "https://www.mozilla.org/en-US/firefox/34.0/releasenotes/",
+            "content": "Firefox 34リリース。\nCSS Fonts Level 3 の実験的な実装、ES6のObject.assign()やTemplate String、メソッド定義の短縮記法等の実装、開発者ツールの改善等",
+            "tags": [
+                "firefox",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-03T08:04:08.946Z",
+            "relatedLinks": [
+                {
+                    "title": "Firefox 34 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/34"
+                },
+                {
+                    "title": "WebIDE, Storage inspector, jQuery events, iframe switcher + more – Firefox Developer Tools Episode 34 ✩ Mozilla Hacks – the Web developer blog",
+                    "url": "https://hacks.mozilla.org/2014/09/webide-storage-inspector-jquery-events-iframe-switcher-more-firefox-developer-tools-episode-34/"
+                }
+            ]
+        },
+        {
+            "title": "Moving from PhantomJS to node-webkit - Todd Wolfson",
+            "url": "http://twolfson.com/2014-11-22-moving-from-phantomjs-to-node-webkit",
+            "content": "node-webkitを使いスクリーンショットを取って画像diffのレグレッションテストを行う話。",
+            "tags": [
+                "browser",
+                "node-webkit",
+                "testing"
+            ],
+            "date": "2014-12-03T14:38:00.189Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Understanding JSON Schema — Understanding JSON Schema 1.0 documentation",
+            "url": "http://spacetelescope.github.io/understanding-json-schema/",
+            "content": "JSON Schema draft 4について解説しているサイト。\nJSON Schemaの書き方やリファレンス等が用意されている",
+            "tags": [
+                "JSON",
+                "book",
+                "tutorial"
+            ],
+            "date": "2014-12-03T14:48:08.143Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Dev.Opera — Opera 26 released",
+            "url": "https://dev.opera.com/blog/opera-26/",
+            "content": "Opera 26 (based on Chromium 39)リリース",
+            "tags": [
+                "Opera",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-04T05:51:28.223Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript - Direct Proxiesでmethod missing的なことをやる - Qiita",
+            "url": "http://qiita.com/hokaccha/items/3a3ea6180e94e70bc335",
+            "content": "Direct Proxiesを使ったmethod missingの実装について",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "date": "2014-12-04T05:52:02.260Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "js-reporters/js-reporters",
+            "url": "https://github.com/js-reporters/js-reporters",
+            "content": "JavaScriptテストフレームワーク/Runnerのレポーターの共通フォーマットについて議論してるコミュニティ",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "issue"
+            ],
+            "date": "2014-12-04T06:04:04.943Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "bassistance.de » jQuery Foundation 2014 roundup",
+            "url": "http://bassistance.de/2014/12/01/jquery-foundation-2014-roundup/",
+            "content": "2014年のjQueryの活動についてのまとめ。\njQuery Coreの3.0の方針やPromises等の標準へ合わせる変更について。\njQuery UIのUIレイヤーの標準化活動、パフォーマンステストの実施。\nQUnitを始めとするテストフレームワークのレポーターの標準化活動。\n国際化に使うCLDRのJSON版の管理など",
+            "tags": [
+                "jQuery",
+                "まとめ"
+            ],
+            "date": "2014-12-04T07:35:11.970Z",
+            "relatedLinks": [
+                {
+                    "title": "Roadmap · jquery/jquery Wiki",
+                    "url": "https://github.com/jquery/jquery/wiki/Roadmap"
+                },
+                {
+                    "title": "jquery/css-framework",
+                    "url": "https://github.com/jquery/css-framework"
+                },
+                {
+                    "title": "js-reporters/js-reporters",
+                    "url": "https://github.com/js-reporters/js-reporters/"
+                },
+                {
+                    "title": "jquery/globalize",
+                    "url": "https://github.com/jquery/globalize/"
+                }
+            ]
+        },
+        {
+            "title": "qunit/History.md at 1.16.0 · jquery/qunit",
+            "url": "https://github.com/jquery/qunit/blob/1.16.0/History.md",
+            "content": "QUnit 1.16.0リリース。\n`done()`呼び出しでの非同期テストを行う`assert.async`の追加、Promiseのサポート、setup/teardownをbeforeEach/afterEachにリネーム、HTML Reporterの改善等",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-04T14:32:37.103Z",
+            "relatedLinks": [
+                {
+                    "title": "async() | QUnit API Documentation",
+                    "url": "http://api.qunitjs.com/async/"
+                },
+                {
+                    "title": "Async: Make tests Promise-aware by JamesMGreene · Pull Request #634 · jquery/qunit",
+                    "url": "https://github.com/jquery/qunit/pull/634"
+                },
+                {
+                    "title": "QUnit 2.x Upgrade Guide | QUnit",
+                    "url": "http://qunitjs.com/upgrade-guide-2.x/"
+                }
+            ]
+        },
+        {
+            "title": "QUnit 2.xで変わること",
+            "url": "http://azu.github.io/slide/chatwork/qunit2.html",
+            "content": "QUnit 2.xでの変更点についてのスライド。\nモジュール化、`done`スタイルの非同期テストサポート、スマートなPromiseテストサポート、レポーターの標準化活動など",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "スライド"
+            ],
+            "date": "2014-12-06T06:23:56.343Z",
+            "relatedLinks": [
+                {
+                    "title": "QUnit 2.x Upgrade Guide | QUnit",
+                    "url": "http://qunitjs.com/upgrade-guide-2.x/"
+                }
+            ]
+        },
+        {
+            "title": "Intern 2.2 released | Blog | SitePen",
+            "url": "http://www.sitepen.com/blog/2014/12/05/intern-2-2-released/",
+            "content": "Intern 2.2リリース。\nコンソールレポーターの表示改善、テストが失敗した時にオブジェクトのDiff表示が出来るようになるなど",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-06T07:33:34.208Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ES7 final.mp4 - Google ドライブ",
+            "url": "https://drive.google.com/file/d/0B4PVbLpUIdzoUjdmSkFtVVozQnM/view",
+            "content": "ES7についての紹介する発表。\nObject.observeの変更通知とイベントループ。\nPromises、Generator、またES7のasync/await、さらに発展してObservableを返すAsync Generatorについて。",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "動画",
+                "スライド"
+            ],
+            "date": "2014-12-06T12:58:19.516Z",
+            "relatedLinks": [
+                {
+                    "title": "ES7 Async Generator from azu on Twitter",
+                    "url": "https://twitter.com/azu_re/timelines/541204375696191488"
+                },
+                {
+                    "title": "jhusain/asyncgenerator",
+                    "url": "https://github.com/jhusain/asyncgenerator"
+                }
+            ]
+        },
+        {
+            "title": "JavaScript Cookbook, 2nd Edition - O'Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920033455.do",
+            "content": "2015年2月 発売\nJavaScript Cookbookの第二版",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "date": "2014-12-06T15:03:01.681Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Introduction to Service Worker: How to use Service Worker - HTML5 Rocks",
+            "url": "http://www.html5rocks.com/en/tutorials/service-worker/introduction/",
+            "content": "Service Workerのライフサイクル、Service Workerへのスクリプトの登録方法や基本的な使い方、どうやってキャッシュを更新するか、注意点について",
+            "tags": [
+                "JavaScript",
+                "tutorial"
+            ],
+            "date": "2014-12-06T15:40:40.260Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "The npm Blog — Getting Started with npm",
+            "url": "http://blog.npmjs.org/post/104272486560/getting-started-with-npm",
+            "content": "npmのサイトのGetting Startedに動画チュートリアルが追加された ",
+            "tags": [
+                "npm",
+                "動画"
+            ],
+            "date": "2014-12-06T15:43:42.085Z",
+            "relatedLinks": [
+                {
+                    "title": "Getting Started",
+                    "url": "https://docs.npmjs.com/getting-started/what-is-npm"
+                }
+            ]
+        },
+        {
+            "title": "Top 10 Mistakes Node.js Developers Make",
+            "url": "https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make",
+            "content": "Nodeで開発時にやってしまう間違いとそれを改善する方法や参考リソース。\n半分以上JavaScriptで同様の事が当てはまりそう",
+            "tags": [
+                "node.js",
+                "まとめ"
+            ],
+            "date": "2014-12-06T15:48:06.838Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "a11y.css by Gaël Poupard",
+            "url": "http://ffoodd.github.io/a11y.css/",
+            "content": "CSSを使ったHTMLのビジュアルLintツール。\nHTML要素における記述のミスなどへの警告やエラーを表示する事ができる",
+            "tags": [
+                "CSS",
+                "アクセシビリティ",
+                "HTML",
+                "ブックマークレット"
+            ],
+            "date": "2014-12-07T09:32:51.732Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Learn JavaScript & jQuery - a book about interactive front-end web development",
+            "url": "http://www.javascriptbook.com/",
+            "content": "HTML & CSS: Design and Build WebsitesのJavaScript編",
+            "tags": [
+                "JavaScript",
+                "jQuery",
+                "book"
+            ],
+            "date": "2014-12-07T10:38:49.708Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Chromium Blog: Chrome 40 Beta: Powerful Offline and Lightspeed Loading with Service Workers",
+            "url": "http://blog.chromium.org/2014/12/chrome-40-beta-powerful-offline-and.html",
+            "content": "Chrome 40β リリース。\nService WorkersとCSP Lv2の部分的サポート、`element.closest()`のサポート等",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-07T12:43:43.692Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "webpackを使い倒す - Thujikun blog",
+            "url": "http://thujikun.github.io/blog/2014/12/07/webpack",
+            "content": "webpackのloader紹介、`resolve`フィールドの指定による`require`のパス解決、pluginsの紹介、Webpack Deb Server、非同期読み込みについて",
+            "tags": [
+                "webpack"
+            ],
+            "date": "2014-12-07T14:28:56.016Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Tweene :: JavaScript Animation Proxy",
+            "url": "http://tweene.com/",
+            "content": "JavaScriptアニメーションプロキシライブラリ。\n既にアニメーション機能を実装してるGSAP、 Velocity.js、 Transit、 jQuery等のライブラリを共通のAPIで利用できるようにするラッパライブラリ",
+            "tags": [
+                "JavaScript",
+                "animation",
+                "library"
+            ],
+            "date": "2014-12-08T08:29:40.811Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "生WebGL入門:初音ミクの美麗3Dモデルを表示する(前編) » nmi.jp",
+            "url": "http://nmi.jp/archives/582",
+            "content": "WebGLを使ってMMDの3Dモデルを表示するまでを丁寧に解説している\nWebGLでのポリゴンの表示、3Dで必須な行列や座標、モデルデータの読み込みについて等",
+            "tags": [
+                "WebGL",
+                "tutorial",
+                "JavaScript"
+            ],
+            "date": "2014-12-08T08:59:30.796Z",
+            "relatedLinks": [
+                {
+                    "title": "生WebGL入門:初音ミクの美麗3Dモデルを表示する(前編) » nmi.jp",
+                    "url": "http://nmi.jp/archives/582"
+                }
+            ]
+        },
+        {
+            "title": "rejs – Vanilla JS Module Builderの紹介 | GREE Engineers' Blog",
+            "url": "http://labs.gree.jp/blog/2014/12/12311/",
+            "content": "名前空間オブジェクトを使うJavaScriptファイルを、名前空間のプロパティにアクセスできるようにソートして結合出来るコマンドラインツール",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-12-08T10:38:18.541Z",
+            "relatedLinks": [
+                {
+                    "title": "Moncader/rejs",
+                    "url": "https://github.com/Moncader/rejs"
+                }
+            ]
+        },
+        {
+            "title": "SVGOを使ったSVGの軽量化方法（アニメーションさせるときの注意とか）｜2.IDEA",
+            "url": "http://2ndidea.com/svg/optimize-svg-with-svgo/",
+            "content": "SVGの最適化を行うSVGOの使い方について。\nそれぞれのプラグインについて解説されてる",
+            "tags": [
+                "SVG",
+                "Tools"
+            ],
+            "date": "2014-12-09T02:29:22.818Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "WebSocket - O'Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920030485.do",
+            "content": "WebSocketについての書籍",
+            "tags": [
+                "WebSocket",
+                "book"
+            ],
+            "date": "2014-12-09T05:40:31.121Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "harmony:specification_drafts [ES Wiki]",
+            "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#december_6_2014_draft_rev_29",
+            "content": "ECMAscript 6 Draft Rev 29リリース。\n`RegExp.prototype.flags`の追加、WeakMap/WeakSetから`clear`メソッドの削除、`String.prototype.contains`が`includes`にリネーム",
+            "tags": [
+                "ECMAScript",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-10T01:33:17.272Z",
+            "relatedLinks": [
+                {
+                    "title": "TC39 MTG Notes 第43回 報告会",
+                    "url": "http://azu.github.io/slide/chatwork/tc39-mtg-notes.html"
+                },
+                {
+                    "title": "RegExp.prototype.flags - JavaScript | MDN",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags"
+                }
+            ]
+        },
+        {
+            "title": "Release 0.4 · sdesalas/trifleJS",
+            "url": "https://github.com/sdesalas/trifleJS/releases/tag/v0.4",
+            "content": "PhantomJSのIE版的なヘッドレスブラウザであるtrifleJS 0.4リリース。\n",
+            "tags": [
+                "IE",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-10T01:53:38.918Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Ember.js - Ember.js 1.9.0 and 1.10 Beta Released",
+            "url": "http://emberjs.com/blog/2014/12/08/ember-1-9-0-released.html",
+            "content": "Ember.js 1.9.0と1.10βリリース。\nEmber 2.0に向けて1.9では非推奨となった機能があることについて書かれている。\nHandlebars 2.0へのアップデート、streams observationパターンの導入等",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-10T08:25:27.002Z",
+            "relatedLinks": [
+                {
+                    "title": "Ember.js - Deprecations: Deprecations",
+                    "url": "http://emberjs.com/guides/deprecations/"
+                }
+            ]
+        },
+        {
+            "title": "Release 3.5 “Mount Sharp” · mbostock/d3",
+            "url": "https://github.com/mbostock/d3/releases/tag/v3.5.0",
+            "content": "D3.js 3.5リリース",
+            "tags": [
+                "JavaScript",
+                "SVG",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-10T14:12:05.951Z",
+            "relatedLinks": [
+                {
+                    "title": "D3 バージョン 3.5 がリリースされました。 | Daily D3",
+                    "url": "http://daily.d3js.info/?p=775"
+                }
+            ]
+        },
+        {
+            "title": "On Third-Party JavaScript - In Production Case-Study",
+            "url": "http://blog.risingstack.com/on-third-party-javascript-in-production/",
+            "content": "サードパーティJavaScriptのケーススタディから学べる事について。\nMixpanel、Disqusからサイズやキャッシュ、どういう初期化経路を踏むかなどについて書かれている",
+            "tags": [
+                "JavaScript",
+                "セキュリティ"
+            ],
+            "date": "2014-12-11T01:13:58.187Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Snap.svgの使い方まとめ",
+            "url": "http://www.h2.dion.ne.jp/~defghi/snapsvg/snapsvg.xhtml",
+            "content": "Snap.svgについての詳しい解説、チュートリアル。\n目的や基本的な使い方から応用、Raphaël.jsとの違いなどよくまとまってる",
+            "tags": [
+                "SVG",
+                "tutorial",
+                "まとめ"
+            ],
+            "date": "2014-12-11T06:48:02.776Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "gcanti/uvdom",
+            "url": "https://github.com/gcanti/uvdom",
+            "content": "Virtual DOMを持っているライブラリ(React、virtual-dom等)向けに、それぞれ変換出来る抽象レイヤーの実装。",
+            "tags": [
+                "JavaScript",
+                "VirualDOM",
+                "library"
+            ],
+            "date": "2014-12-11T09:15:11.185Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Dynatrace AJAX Edition 4.5 is here",
+            "url": "http://apmblog.compuware.com/2014/12/11/dynatrace-ajax-edition-4-5-last-page-chapter-yet-story-continues/",
+            "content": "Dynatrace AJAX Edition 4.5リリース",
+            "tags": [
+                "performance",
+                "software",
+                "browser"
+            ],
+            "date": "2014-12-12T06:29:27.341Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Introducing the JavaScript Internationalization API ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/",
+            "content": "ECMA i18n APIの使い方について。\n元々localeCompareやtoLocaleStringといったものがあったがローカライズには不十分であったため、ECMA i18n APIを使って色々なユースケースの紹介",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "API"
+            ],
+            "date": "2014-12-12T09:16:46.876Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Polyfilling Doesn't Have to be Difficult -Telerik Developer Network",
+            "url": "http://developer.telerik.com/featured/polyfilling-doesnt-difficult/",
+            "content": "polyfillとはどういうものか、実際に`Number.isInteger()`や`placeholder`属性の実装しながら学ぶチュートリアル",
+            "tags": [
+                "JavaScript",
+                "library",
+                "tutorial"
+            ],
+            "date": "2014-12-12T09:26:07.420Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "How to Use npm as a Build Tool",
+            "url": "http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/",
+            "content": "npm run-scriptをビルドツールとして使う話\nクロスプラットフォーム向けにrmの代わりにrimrafモジュールを使ったり、タスクのグループ化やhookについて書かれている。",
+            "tags": [
+                "npm"
+            ],
+            "date": "2014-12-12T09:32:06.198Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "[JavaScript Advent Calendar 2014 No.6] navigator.onLine in Blink",
+            "url": "http://blog.oimou.com/javascript-advent-calendar-2014-6ri-mu-navigator-onlinemaniatukusu2589ed73/",
+            "content": "navigator.onLineがどのように実装されているかをBlink/Chromeのソースコードから追っていく話。\nブラウザのソースコードを見ていく方法について実例での参考になりそう",
+            "tags": [
+                "Chrome",
+                "blink",
+                "コードリーディング"
+            ],
+            "date": "2014-12-12T09:33:47.348Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript - Chrome 40 で今すぐ ServiceWorker を試す - Qiita",
+            "url": "http://qiita.com/kinu/items/2abd61b4390f9bbaffc9",
+            "content": "ServiceWorkerを使ったオフライン処理、スクリプトの登録、更新方法、FetchやCache APIについて",
+            "tags": [
+                "ServiceWorker",
+                "JavaScript"
+            ],
+            "date": "2014-12-13T10:24:04.102Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Papa Parse - Powerful CSV parser for Javascript",
+            "url": "http://papaparse.com/",
+            "content": "CSVパーサーライブラリ。\nCSVをJSONに変換、WebWorkerを使っての並列処理、ダウンロードしながらのパース等",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-12-13T12:49:08.815Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Amazon: TypeScript実践プログラミング (Programmer's SELECTION): スティーブ・フェントン, 鈴木 幸敏, 株式会社クイープ",
+            "url": "http://www.amazon.co.jp/dp/4798139807?tag=amazon0abac-22",
+            "content": "2015年1月23日 発売\nPro TypeScriptの翻訳本\nhttp://www.apress.com/9781430267911",
+            "tags": [
+                "TypeScript",
+                "book",
+                "翻訳"
+            ],
+            "date": "2014-12-13T16:17:28.973Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Offline.js – Handle your users losing their internet connection like a pro",
+            "url": "http://github.hubspot.com/offline/docs/welcome/",
+            "content": "オフラインかどうかを検知して通知出来るライブラリ",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-12-14T07:19:19.012Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Ractive.js の紹介 — KaoriYa",
+            "url": "http://www.kaoriya.net/blog/2014/12/13/",
+            "content": "簡単なTODOアプリを使ったRactive.jsの紹介。\nmustache拡張なテンプレートとイベント、データバインディングについて",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library"
+            ],
+            "date": "2014-12-14T07:35:43.788Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "jsdom/Changelog.md at 1.5.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/1.5.0/Changelog.md",
+            "content": "jsdom 1.5.0リリース。\nconsole APIの定義を追加",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "date": "2014-12-15T07:40:49.493Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "decimal.js API",
+            "url": "http://mikemcl.github.io/decimal.js/",
+            "content": "Decimalを扱うライブラリ。\n小数点同士の演算、丸め込みの挙動の指定等、フォーマットを指定しての出力等が出来る",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-12-16T07:46:02.514Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript Application Architecture On The Road To 2015 — Medium",
+            "url": "https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b",
+            "content": "2014年のJavaScript全体のアーキテクチャを振り返り今後どうなるかについての話。\nデータバインディング、Immutable、Virtual DOM、Web Component、Component同士のメッセージング、ES6とBrowserify、オフラインファースト等",
+            "tags": [
+                "JavaScript"
+            ],
+            "date": "2014-12-16T08:09:09.172Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Meta programming with ECMAScript 6 proxies",
+            "url": "http://www.2ality.com/2014/12/es6-proxies.html",
+            "content": "ES6のProxyについて詳しい解説。\nメタプログラミングとは何か、Proxyはどのように動くのか、ユースケース、Proxyかどうかの判定方法、PropertyDescriptorとあわせた場合の挙動、Reflect APIについて",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "リファレンス",
+                "まとめ"
+            ],
+            "date": "2014-12-16T11:16:24.257Z",
+            "relatedLinks": [
+                {
+                    "title": "ECMAScript 6 proxyによるメタプログラミング(1/11) | JSお散歩",
+                    "url": "http://panda.node.ws/?p=1371"
+                }
+            ]
+        },
+        {
+            "title": "The offline cookbook - JakeArchibald.com",
+            "url": "http://jakearchibald.com/2014/offline-cookbook/",
+            "content": "ServiceWorkerを使った典型的なパターンの紹介。\n",
+            "tags": [
+                "ServiceWorker",
+                "JavaScript"
+            ],
+            "date": "2014-12-16T11:54:59.067Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "実践入門 Ember.js：連載｜gihyo.jp … 技術評論社",
+            "url": "http://gihyo.jp/dev/serial/01/emberjs",
+            "content": "Ember.jsについての連載",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library"
+            ],
+            "date": "2014-12-16T11:59:39.298Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Web Componentsの基本的な使い方・まとめ",
+            "url": "http://www.h2.dion.ne.jp/~defghi/webc/webc.htm",
+            "content": "Web Componentsの構成要素、それぞれの機能について詳しく解説されてる。\ntemplate要素、HTML Imports、Shadow DOM、Custom Elementsについて",
+            "tags": [
+                "WebComponents",
+                "tutorial",
+                "まとめ"
+            ],
+            "date": "2014-12-16T12:36:23.781Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Backbone Conf III - 2014 - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PLlgxAbM67lYIGw8DnANC7VgREbzJRQged&app=desktop",
+            "content": "http://backboneconf.com/ の動画が公開された",
+            "tags": [
+                "backbone.js",
+                "動画",
+                "イベント",
+                "まとめ"
+            ],
+            "date": "2014-12-18T05:36:34.387Z",
+            "relatedLinks": [
+                {
+                    "title": "BACKBONECONF 2014, by Bocoup",
+                    "url": "http://backboneconf.com/"
+                }
+            ]
+        },
+        {
+            "title": "CUTT System:TypeScriptネットワークプログラミング",
+            "url": "http://www.cutt.co.jp/book/978-4-87783-354-1.html",
+            "content": "2014年1月10日 発売\nWebSocketやWebRTC等を使ったアプリをTypeScriptで書いて学んで行く書籍",
+            "tags": [
+                "TypeScript",
+                "book"
+            ],
+            "date": "2014-12-18T06:01:13.478Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Improving the Pointer Events Polyfill | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2014/12/17/improving-the-pointer-events-polyfill/",
+            "content": "GoogleからjQuery FoundationがPointerEventsのpolyfillの管理を引き継いだ",
+            "tags": [
+                "google",
+                "jQuery",
+                "library"
+            ],
+            "date": "2014-12-18T06:04:19.113Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "DailyJS: JavaScript Developer Survey 2014: Results",
+            "url": "http://dailyjs.com/2014/12/16/javascript-survey-results/",
+            "content": "JavaScript開発者アンケート 2014年の結果が公開された。\n",
+            "tags": [
+                "JavaScript",
+                "まとめ"
+            ],
+            "date": "2014-12-18T06:06:49.684Z",
+            "relatedLinks": [
+                {
+                    "title": "DailyJS | JavaScript デベロッパー・サーベイ 2014 結果 | JSお散歩",
+                    "url": "http://panda.node.ws/?p=1620"
+                }
+            ]
+        },
+        {
+            "title": "Libscore",
+            "url": "http://libscore.com/",
+            "content": "世界中のサイトでどのJavaScriptライブラリがどれくらい使われているかを表示するサービス",
+            "tags": [
+                "JavaScript",
+                "library",
+                "検索"
+            ],
+            "date": "2014-12-18T07:32:32.682Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Node v0.10.34 (Stable)",
+            "url": "http://blog.nodejs.org/2014/12/17/node-v0-10-34-stable",
+            "content": "Node v0.10.34 リリース。\nv0.11.15がv0.12RCとなるので、次のStableで0.12がリリースされる予定",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-18T07:36:58.314Z",
+            "relatedLinks": [
+                {
+                    "title": "node js on Twitter: \"Node v0.10.34 (Stable) http://t.co/VimTZXc1VK tomorrow is v0.11.15 (the release candidate for v0.12)\"",
+                    "url": "https://twitter.com/nodejs/status/545349270241435648"
+                }
+            ]
+        },
+        {
+            "title": "TypeScript - dtsmのご紹介 - Qiita",
+            "url": "http://qiita.com/vvakame/items/38b953ab0f4de63cce8b",
+            "content": "npmライクなコマンドラインインタフェースを持ったd.ts管理ツール",
+            "tags": [
+                "TypeScript",
+                "package",
+                "Tools"
+            ],
+            "date": "2014-12-18T11:41:38.905Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript - こわくない Protractor - Qiita",
+            "url": "http://qiita.com/shuhei/items/6973fe694d29a193f224",
+            "content": "ProtractorというE2Eテストツールの仕組みについての解説。\nelement() は DOM 要素を選択してる訳ではない、ブラウザの操作をするメソッドはPromiseを返している、書いた順番で実行されるようになっている点などどのような仕組みで動いているかについてまとめられている",
+            "tags": [
+                "protractor",
+                "E2E",
+                "testing"
+            ],
+            "date": "2014-12-18T11:52:25.310Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "jQuery 1.11.2 and 2.1.3 Released – Safari Fail-Safe Edition | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/",
+            "content": "jQuery 1.11.2 と 2.1.3リリース。\niOS7と8のquerySelectorバグの対処",
+            "tags": [
+                "jQuery",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-20T01:20:20.743Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Effective web performance tuning for smartphone",
+            "url": "http://www.slideshare.net/dena_study/effective-web-performance-tuning-for-smartphone",
+            "content": "スマフォのパフォーマンスチューニングについてのスライド。\nどうやって調査するか、改善のワークフロー、何を指標に改善するか。\n処理時間が20ms超、一定間隔で同一処理、描画の負荷が高いイベント、5MB超のGC、メモリリーク、意図しないレイヤーの合成について",
+            "tags": [
+                "mobile",
+                "JavaScript",
+                "game",
+                "performance",
+                "スライド"
+            ],
+            "date": "2014-12-20T14:25:07.385Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ソーシャルメディアの読み込みはDNSプリフェッチのまとめ設定がお得 | ゆっくりと…",
+            "url": "http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/boostup-socials-with-dns-prefetch/",
+            "content": "rel=\"dns-prefetch\"のブラウザサポート状況、同時に指定できる数の制限が無いこと、meta要素を置く場所について。\n",
+            "tags": [
+                "browser",
+                "performance"
+            ],
+            "date": "2014-12-21T12:41:54.224Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "HTML Best Practices - Weblog - Hail2u.net",
+            "url": "http://hail2u.net/blog/webdesign/html-best-practices.html",
+            "content": "HTMLベストプラクティス。\nHTMLの書き方について良い例と悪い例が書かれている",
+            "tags": [
+                "HTML"
+            ],
+            "date": "2014-12-22T08:56:29.296Z",
+            "relatedLinks": [
+                {
+                    "title": "hail2u/html-best-practices",
+                    "url": "https://github.com/hail2u/html-best-practices"
+                }
+            ]
+        },
+        {
+            "title": "domenic/html-as-custom-elements",
+            "url": "https://github.com/domenic/html-as-custom-elements",
+            "content": "HTML要素をCustom Elementで実装し直すプロジェクト。",
+            "tags": [
+                "HTML",
+                "WebComponents"
+            ],
+            "date": "2014-12-22T10:28:28.063Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "IE10 以下を切る場合の JavaScript チェックリスト - Qiita",
+            "url": "http://qiita.com/Jxck_/items/fe8a1c49cac717e52ae3",
+            "content": "モダンブラウザでは利用できるJavaScriptやDOM APIについて。\nまた使いどころが難しい機能についても触れている",
+            "tags": [
+                "IE",
+                "JavaScript",
+                "browser",
+                "まとめ"
+            ],
+            "date": "2014-12-22T12:31:46.562Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "React.js + Flux入門 #scripty02",
+            "url": "http://www.slideshare.net/techblogyahoo/reactjs-flux-scripty02",
+            "content": "React, Virtual DOM, Flux(Fluxxor) を全体的に眺めた感じのスライド。 Reactが持つ機能やライフサイクル、Fluxのフローについて",
+            "tags": [
+                "React",
+                "library",
+                "Flux"
+            ],
+            "date": "2014-12-23T07:06:07.944Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "foss-haas/fynx",
+            "url": "https://github.com/foss-haas/fynx",
+            "content": "Fluxアーキテクチャ的な実装ライブラリ。\nAjax的な操作を行うServicesという場所を明示的に用意している。\n",
+            "tags": [
+                "Flux",
+                "library"
+            ],
+            "date": "2014-12-23T07:08:11.085Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Unit Testing Polymer Elements - Polymer",
+            "url": "https://www.polymer-project.org/articles/unit-testing-elements.html",
+            "content": "Polymerを使ったElementのテストのチュートリアル。\nWeb Componentsのテストの参考になりそう",
+            "tags": [
+                "WebComponents",
+                "testing",
+                "tutorial"
+            ],
+            "date": "2014-12-23T08:31:35.048Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Maintaining JavaScript Code Quality with ESLint | PayPal Engineering Blog",
+            "url": "https://www.paypal-engineering.com/2014/12/12/maintaining-javascript-code-quality-with-eslint/",
+            "content": "自分でルールを拡張出来るESLintの紹介。簡単なルールの書き方、設定方法について",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "AST"
+            ],
+            "date": "2014-12-23T08:52:12.250Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "私のJavaScript情報の集め方 - Qiita",
+            "url": "http://qiita.com/koba04/items/ba2381776d394633de72",
+            "content": "JavaScriptに関連する情報収集について",
+            "tags": [
+                "JavaScript",
+                "rss",
+                "twitter",
+                "github"
+            ],
+            "date": "2014-12-23T09:20:49.650Z",
+            "relatedLinks": [
+                {
+                    "title": "Frontrend in Kanazawaのスライドを公開しましたというご連絡と情報収集についての補足など - Life goes on",
+                    "url": "http://layzie.hatenablog.com/entry/20141104/1415076724"
+                },
+                {
+                    "title": "世界のJavaScriptを読もう @ 2014",
+                    "url": "http://azu.github.io/slide/jser200/javascript-2014.html"
+                }
+            ]
+        },
+        {
+            "title": "Shape Security Labs: Announcing the Shift JavaScript AST Specification",
+            "url": "http://engineering.shapesecurity.com/2014/12/announcing-shift-javascript-ast.html",
+            "content": "SpiderMonkey ASTは内部表現として始まったので、ツールから扱いにくい部分やES6のサポートの問題がでてきた。 \"Shift\"プロジェクトではそのASTの仕様策定、パーサ、ジェネレータ、バリデータ、SpiderMonkey ASTからの変換ツール、Javaの実装などが公開されている。",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "spec"
+            ],
+            "date": "2014-12-24T03:26:34.177Z",
+            "relatedLinks": [
+                {
+                    "title": "Shape Security",
+                    "url": "https://github.com/shapesecurity"
+                }
+            ]
+        },
+        {
+            "title": "Node v0.10.35 (Stable)",
+            "url": "http://blog.nodejs.org/2014/12/23/node-v0-10-35-stable/",
+            "content": "Node v0.10.35リリース。\nhttp://d.hatena.ne.jp/jovi0608/20141222/1419265270 の修正が入った",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-24T06:45:26.884Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Performance Calendar » Fast-Forward Performance – The Future Looks Bright",
+            "url": "http://calendar.perfplanet.com/2014/fast-forward-performance-the-future-looks-bright/",
+            "content": "パフォーマンス改善に役立つAPI、測定をするためのAPIのまとめ。\nブラウザのサポート状態について",
+            "tags": [
+                "browser",
+                "JavaScript",
+                "API",
+                "performance"
+            ],
+            "date": "2014-12-25T11:19:21.642Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Knockout.js - O'Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920035367.do",
+            "content": "Knockout.js についての書籍",
+            "tags": [
+                "JavaScript",
+                "library",
+                "book"
+            ],
+            "date": "2014-12-25T11:40:33.569Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
+            "url": "http://blog.brackets.io/2014/12/18/brackets-1-1-and-extract-for-brackets-0-6-now-available/",
+            "content": "Brackets 1.1リリース。\nクロスプラウザのLive Previewを実験的にサポート。",
+            "tags": [
+                "editor",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-25T11:56:51.629Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JSVerify — property based testing for JavaScript. Like QuickCheck.",
+            "url": "http://jsverify.github.io/#jsverify",
+            "content": "QuickCheckを行うライブラリ。\nMochaやJasmineとの連携も用意されている",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library"
+            ],
+            "date": "2014-12-26T06:11:46.955Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Ember.js - Ember.js 1.9.1 Released",
+            "url": "http://emberjs.com/blog/2014/12/23/ember-1-9-1-released.html",
+            "content": "Ember.js 1.9.1 リリース。\nHandlebarsテンプレートはタグのエスケープは自動でやるが、属性値にjavascript:等を指定した場合にXSSとなる可能性があったため自動的にエスケープされるように変更された",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote",
+                "XSS"
+            ],
+            "date": "2014-12-26T06:17:02.540Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Flux react現状確認会",
+            "url": "http://www.slideshare.net/VOYAGE_GROUP/flux-react",
+            "content": "FluxとReactについてのスライド。\nアーキテクチャ = オブザーバパターン、データの一方通行性、メリット・デメリット、ViewライブラリとしてReactを選んだ理由について。\n実際にFlux的にやっての本家との違いについて",
+            "tags": [
+                "React",
+                "Flux",
+                "スライド"
+            ],
+            "date": "2014-12-26T08:23:49.198Z",
+            "relatedLinks": [
+                {
+                    "title": "Fluxとはなんだったのか + misc at 2014 - snyk_s log",
+                    "url": "http://saneyukis.hatenablog.com/entry/2014/12/24/014421"
+                }
+            ]
+        },
+        {
+            "title": "Chrome 関連の動画に日本語字幕が付きました - Google Developer Japan Blog",
+            "url": "http://googledevjp.blogspot.com/2014/12/chrome.html",
+            "content": "I/O Bytes 2014のChrome関係の動画に日本語字幕がついた",
+            "tags": [
+                "Chrome",
+                "翻訳"
+            ],
+            "date": "2014-12-26T08:31:44.155Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "mapbox/pbf",
+            "url": "https://github.com/mapbox/pbf",
+            "content": "ファイルサイズの小さいprotocol buffersの実装ライブラリ",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-12-27T04:16:47.151Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "6to5/CHANGELOG.md at master · 6to5/6to5",
+            "url": "https://github.com/6to5/6to5/blob/master/CHANGELOG.md#200",
+            "content": "ES6のコードをES5に変換する6to5 2.0.0リリース。\nFlowTypeのサポート、polyfill等をcore-jsに変更、Performanceの改善、`6to5/register`に`cache`オプションの追加等",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-29T03:07:35.821Z",
+            "relatedLinks": [
+                {
+                    "title": "Flow types · Issue #260 · 6to5/6to5",
+                    "url": "https://github.com/6to5/6to5/issues/260"
+                },
+                {
+                    "title": "zloirock/core-js",
+                    "url": "https://github.com/zloirock/core-js"
+                },
+                {
+                    "title": "Slow compilation · Issue #341 · 6to5/6to5",
+                    "url": "https://github.com/6to5/6to5/issues/341"
+                }
+            ]
+        },
+        {
+            "title": "jsdom/Changelog.md at 2.0.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/2.0.0/Changelog.md",
+            "content": "jsdom 2.0.0リリース。\nリファクタリング、内部構造が大きく変えていくリリース。\n`levels`という概念を捨ててliving standart modelに従う用に。\n非標準なAPIを標準化されたものへ変更など",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "date": "2014-12-29T05:09:15.443Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "HTMLBars - A Feature-by-Feature Review | colintoh.com",
+            "url": "http://colintoh.com/blog/htmlbars",
+            "content": "Emberが採用するHTMLBarsについて。\n以前のEmberのレンダリング\nテンプレート -> AST -> HTML String -> DOM\nというフローだった。\nHTMLBarsでは\nテンプレート -> JS関数 -> DOM\nというフローとなった理由や仕組みについて。",
+            "tags": [
+                "JavaScript"
+            ],
+            "date": "2014-12-29T12:59:03.221Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Symbols in ECMAScript 6",
+            "url": "http://www.2ality.com/2014/12/es6-symbols.html",
+            "content": "ES6のSymbolsについて。\nSymbolの使い方、const Symbol()でのユニーク値としての利用、WeakMapと合わせてのプライベート値、メタ値との利用、iframe、なぜ文字列じゃなくてSymbolなのかについて",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "date": "2014-12-29T15:12:17.283Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release v1.5.0 · eslint/espree",
+            "url": "https://github.com/eslint/espree/releases/tag/v1.5.0",
+            "content": "esprima forkのespree 1.5.0リリース。\nJSXのパースをサポート",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-30T02:42:04.821Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "azu/textlint",
+            "url": "https://github.com/azu/textlint",
+            "content": "テキストやMarkdownをLintするツール。\nESLintのようにルールをJavaScriptで書いて拡張出来る。",
+            "tags": [
+                "JavaScript",
+                "Markdown",
+                "Tools",
+                "library",
+                "node.js"
+            ],
+            "date": "2014-12-30T07:41:58.627Z",
+            "relatedLinks": [
+                {
+                    "title": "JavaScriptでルールを書けるテキスト/Markdownの校正ツール textlint を作った | Web Scratch",
+                    "url": "http://efcl.info/2014/12/30/textlint/"
+                }
+            ]
+        },
+        {
+            "title": "Smashing Magazineのパフォーマンス改善ケースが凄まじい件 — MOL",
+            "url": "http://t32k.me/mol/log/style-class-conference/",
+            "content": "Smashing Magazineのパフォーマンス改善について。\nCritical Rendering Pathの最適化、パフォーマンス改善の指標をSpeed Index <= 1000としている点について等",
+            "tags": [
+                "JavaScript",
+                "CSS",
+                "performance"
+            ],
+            "date": "2014-12-30T12:41:58.578Z",
+            "relatedLinks": [
+                {
+                    "title": "Improving Smashing Magazine's Performance: A Case Study - Smashing Magazine",
+                    "url": "http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/"
+                }
+            ]
+        },
+        {
+            "title": "Functional Reactive Programming with the Power of Node.js Streams",
+            "url": "http://blog.risingstack.com/functional-reactive-programming-with-the-power-of-nodejs-streams/",
+            "content": "NodeのStreamとFRPの導入的な記事。\nリアクティブプログラミングはどのようなケースで有用なのか、FRPのライブラリとしてRxJSやBacon等が既にある。\nまたNodeのStreamとの互換性を高めたHighland.jsというライブラリの紹介記事",
+            "tags": [
+                "node.js",
+                "stream",
+                "関数型プログラミング"
+            ],
+            "date": "2014-12-30T13:23:18.297Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "The state of the Web Notifications API - Aurelio De Rosa blog",
+            "url": "http://aurelio.audero.it/blog/2014/10/18/state-web-notifications-api/",
+            "content": "Web Notifications APIの`events`周りの仕様がW3CとWHATWGで異なるが、それぞれのブラウザの実装はどうなっているかについて。\n",
+            "tags": [
+                "JavaScript",
+                "WebPlatformAPI"
+            ],
+            "date": "2014-12-30T13:38:51.131Z",
+            "relatedLinks": [
+                {
+                    "title": "W3C vs. WhatWG HTML5 Specs - Differences Documented -Telerik Developer Network",
+                    "url": "http://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/"
+                }
+            ]
+        },
+        {
+            "title": "Javascript-globalization by rxaviers",
+            "url": "http://rxaviers.github.io/javascript-globalization/",
+            "content": "ECMA i18n APIやFormatJS等の国際化ライブラリなどの特徴や機能比較のまとめ",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "library",
+                "まとめ"
+            ],
+            "date": "2014-12-30T13:48:20.224Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ESLint 0.11.0 released - ESLint",
+            "url": "http://eslint.org/blog/2014/12/eslint-0.11.0-released/",
+            "content": "ESLint 0.11.0リリース。\nJavaScriptパーサがesprimaからEspreeへと変更された。\nまたES5がデフォルトとなり、ES3のコードとしてLintしたい場合はオプションを変更する必要がある",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-12-31T01:32:47.511Z",
+            "relatedLinks": []
+        }
+    ]
+}
