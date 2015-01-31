@@ -1,28 +1,22 @@
 // LICENSE : MIT
 "use strict";
 import React from 'react';
-import ArticleDataItem from "./ArticleDataItem.jsx"
-import ArticleDataStore from "../stores/ArticleDataStore.js"
-import ArticleDataAction from "../actions/ArticleDataAction.js"
+import store from "../stores/CandidateArticleStore.js"
+import CandidateArticleGroup from "./CandidateArticleGroup.jsx"
 export default React.createClass({
-    mixins: [ArticleDataStore.mixin],
     getInitialState: function () {
         return {
-            articles: ArticleDataStore.getArticleList()
+            groupList: store.getGroupList()
         };
     },
-    componentDidMount: function () {
-    },
-    storeDidChange: function () {
-    },
     render() {
-        var items = this.state.articles.map(function (article, index) {
-            return <ArticleDataItem key={index} {...article}/>
+        var groupList = this.state.groupList.map(function (name, index) {
+            return (<CandidateArticleGroup key={index} groupName={name}/>)
         });
         return (
             <div>
-              {items}
+        {groupList}
             </div>
-        )
+        );
     }
-})
+});
