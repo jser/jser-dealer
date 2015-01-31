@@ -25,8 +25,8 @@ export default React.createClass({
             return <ArticleDataItem key={index} {...article}/>
         });
         return (
-            <div className="ArticleDataList">
-            {items}
+            <div>
+              {items}
             </div>
         )
     }
