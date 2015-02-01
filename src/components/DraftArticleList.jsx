@@ -4,6 +4,8 @@ import React from 'react';
 import ArticleDataItem from "./ArticleDataItem.jsx"
 import ArticleDataStore from "../stores/ArticleDataStore.js"
 import ArticleDataAction from "../actions/ArticleDataAction.js"
+
+import CandidateArticleAction from "../actions/CandidateArticleAction.js"
 export default React.createClass({
     mixins: [ArticleDataStore.mixin],
     getInitialState: function () {
@@ -20,9 +22,14 @@ export default React.createClass({
             articles: articleList
         });
     },
+    _addItemToGroup(groupName, item) {
+        console.log(groupName);
+        CandidateArticleAction.addItemToGroup("ヘッドライン", item);
+    },
     render() {
+        var that = this;
         var items = this.state.articles.map(function (article, index) {
-            return <ArticleDataItem key={index} {...article}/>
+            return <ArticleDataItem key={index} onClick={that._addItemToGroup.bind(that, "ヘッドライン", article)} {...article}/>
         });
         return (
             <div>

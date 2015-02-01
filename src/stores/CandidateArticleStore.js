@@ -1,24 +1,32 @@
 // LICENSE : MIT
 "use strict";
 import mcFly from "../flux"
-import Const from "../constants/ArticleContants.js"
+import Const from "../constants/CandidateArticleContants.js"
 var _groupNameList = ["ヘッドライン", "アーティクル"];
-var _groupKVS = {};
+var _groupKVS = _groupNameList.reduce(function (memo, current) {
+    memo[current] = [];
+    return memo;
+}, {});
+
+function addItemToGroup(groupName, item) {
+    _groupKVS[groupName].push(item);
+}
 var store = mcFly.createStore({
     getGroupNameList() {
         return _groupNameList;
     },
     /**
      * groupのitem一覧を返却する
-     * @param name
+     * @param groupName
      * @returns {Array}
      */
-    getGroupItemList(name) {
-        return _groupKVS[name] || [];
+    getGroupItemList(groupName) {
+        return _groupKVS[groupName] || [];
     }
 }, function (payload) {
     switch (payload.actionType) {
-        case Const.LOAD_ARTICLE:
+        case Const.ADD_ITEM_TO_GROUP:
+            addItemToGroup(payload.groupName, payload.item);
             break;
         default:
             return true;

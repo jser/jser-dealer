@@ -2,6 +2,8 @@
 "use strict";
 import React from 'react';
 import store from "../stores/CandidateArticleStore.js"
+import ArticleDataItem from "./ArticleDataItem.jsx"
+
 export default React.createClass({
     mixins: [store.mixin],
     getDefaultProps: function () {
@@ -21,8 +23,9 @@ export default React.createClass({
         });
     },
     render() {
+        var that = this;
         var items = this.state.articles.map(function (article, index) {
-            return <ArticleDataItem key={index} {...article}/>
+            return <ArticleDataItem key={index} {...article} />
         });
         return (
             <div className="candidate-article-group">

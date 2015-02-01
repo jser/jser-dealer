@@ -3,6 +3,7 @@
 import React from 'react';
 import store from "../stores/CandidateArticleStore.js"
 import CandidateArticleGroup from "./CandidateArticleGroup.jsx"
+import Action from "../actions/CandidateArticleAction.js"
 export default React.createClass({
     getInitialState: function () {
         return {
@@ -11,7 +12,7 @@ export default React.createClass({
     },
     render() {
         var groupList = this.state.groupList.map(function (name, index) {
-            return (<CandidateArticleGroup key={index} groupName={name}/>)
+            return (<CandidateArticleGroup key={index} groupName={name} />)
         });
         return (
             <div>

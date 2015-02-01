@@ -10,12 +10,13 @@ export default React.createClass({
         relatedLinks: React.PropTypes.arrayOf(React.PropTypes.shape({
             title: React.PropTypes.string.isRequired,
             url: React.PropTypes.string.isRequired
-        }))
+        })),
+        onClick: React.PropTypes.func
     },
     render() {
         return (
             <div className="ArticleDataItem">
-                <a href={this.props.url}>{this.props.title}</a>
+                <a onClick={this.props.onClick}>{this.props.title}</a>
             </div>
         )
     }
