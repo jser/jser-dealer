@@ -6,7 +6,7 @@ import CandidateArticleGroup from "./CandidateArticleGroup.jsx"
 export default React.createClass({
     getInitialState: function () {
         return {
-            groupList: store.getGroupList()
+            groupList: store.getGroupNameList()
         };
     },
     render() {
