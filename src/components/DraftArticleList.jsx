@@ -23,13 +23,14 @@ export default React.createClass({
         });
     },
     _addItemToGroup(groupName, item) {
-        console.log(groupName);
         CandidateArticleAction.addItemToGroup("ヘッドライン", item);
     },
     render() {
         var that = this;
+        var currentIndex = ArticleDataStore.getCurrentReadItemIndex();
         var items = this.state.articles.map(function (article, index) {
-            return <ArticleDataItem key={index} onClick={that._addItemToGroup.bind(that, "ヘッドライン", article)} {...article}/>
+            var isReading = index === currentIndex;
+            return <ArticleDataItem key={index} isReading={isReading} onClick={that._addItemToGroup.bind(that, "ヘッドライン", article)} {...article}/>
         });
         return (
             <div>

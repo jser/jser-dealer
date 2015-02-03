@@ -4,7 +4,7 @@ import mcFly from "../flux"
 import Const from "../constants/ArticleContants.js"
 import {ArticleClient} from "../api-client/ArticleClient.js"
 var client = new ArticleClient();
-var TodoActions = mcFly.createActions({
+var ArticleAction = mcFly.createActions({
     /**
      *
      * @param {Date} date
@@ -19,6 +19,17 @@ var TodoActions = mcFly.createActions({
         }).catch(function (error) {
             console.error(error);
         });
+    },
+
+    moveToNext() {
+        return {
+            actionType: Const.MOVE_TO_NEXT
+        }
+    },
+    moveToPrev() {
+        return {
+            actionType: Const.MOVE_TO_PREV
+        }
     }
 });
-export default TodoActions;
+export default ArticleAction;

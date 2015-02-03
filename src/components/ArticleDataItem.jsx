@@ -14,8 +14,10 @@ export default React.createClass({
         onClick: React.PropTypes.func
     },
     render() {
+        var className = this.props.isReading ? "is-reading" : "";
+        className += " ArticleDataItem";
         return (
-            <div className="ArticleDataItem">
+            <div className={className}>
                 <a onClick={this.props.onClick}>{this.props.title}</a>
             </div>
         )
