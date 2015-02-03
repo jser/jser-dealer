@@ -13,6 +13,12 @@ export default React.createClass({
         })),
         onClick: React.PropTypes.func
     },
+    componentDidUpdate: function () {
+        if (this.props.isReading) {
+            var node = this.getDOMNode();
+            node.scrollIntoView();
+        }
+    },
     render() {
         var className = this.props.isReading ? "is-reading" : "";
         className += " ArticleDataItem";

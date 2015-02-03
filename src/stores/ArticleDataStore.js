@@ -15,17 +15,28 @@ var store = mcFly.createStore({
         return currentReadItemIndex;
     }
 }, function (payload) {
+    function decreaseCount() {
+        if (currentReadItemIndex > 0) {
+            currentReadItemIndex -= 1;
+        }
+    }
+
+    function increaseCount() {
+        if (currentReadItemIndex <= articleList.length) {
+            currentReadItemIndex += 1;
+        }
+    }
+
     switch (payload.actionType) {
         case Const.LOAD_ARTICLE:
             resetArticleList(payload.data);
             break;
         case Const.MOVE_TO_NEXT:
-            currentReadItemIndex += 1;
+            increaseCount();
             break;
         case Const.MOVE_TO_PREV:
-            currentReadItemIndex -= 1;
+            decreaseCount();
             break;
-
         default:
             return true;
     }
