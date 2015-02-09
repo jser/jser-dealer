@@ -25,12 +25,14 @@ export default React.createClass({
     _addItemToGroup(groupName, item) {
         CandidateArticleAction.addItemToGroup("ヘッドライン", item);
     },
+    _focusItem(index) {
+        ArticleDataAction.moveToIndex(index);
+    },
     render() {
-        var that = this;
         var currentIndex = ArticleDataStore.getCurrentReadItemIndex();
-        var items = this.state.articles.map(function (article, index) {
+        var items = this.state.articles.map((article, index) => {
             var isReading = index === currentIndex;
-            return <ArticleDataItem key={index} isReading={isReading} onClick={that._addItemToGroup.bind(that, "ヘッドライン", article)} {...article}/>
+            return <ArticleDataItem key={index} isReading={isReading} onClick={this._focusItem.bind(this, index)} {...article}/>
         });
         return (
             <div>

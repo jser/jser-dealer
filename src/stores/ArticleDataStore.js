@@ -37,6 +37,9 @@ var store = mcFly.createStore({
         case Const.MOVE_TO_PREV:
             decreaseCount();
             break;
+        case Const.MOVE_TO_INDEX:
+            currentReadItemIndex = payload.index;
+            break;
         default:
             return true;
     }

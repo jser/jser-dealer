@@ -30,6 +30,12 @@ var ArticleAction = mcFly.createActions({
         return {
             actionType: Const.MOVE_TO_PREV
         }
+    },
+    moveToIndex(index) {
+        return {
+            actionType: Const.MOVE_TO_INDEX,
+            index: index
+        }
     }
 });
 export default ArticleAction;

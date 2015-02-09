@@ -23,7 +23,6 @@ export default React.createClass({
         });
     },
     render() {
-        var that = this;
         var items = this.state.articles.map(function (article, index) {
             return <ArticleDataItem key={index} {...article} />
         });
