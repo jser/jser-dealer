@@ -2,7 +2,14 @@
 "use strict";
 import mcFly from "../flux"
 import Const from "../constants/CandidateArticleContants.js"
-var _groupNameList = ["ヘッドライン", "アーティクル"];
+var _groupNameList = [
+    "ヘッドライン",
+    "アーティクル",
+    "スライド、動画関係",
+    "サイト、サービス",
+    "ソフトウェア、ツール、ライブラリ関係",
+    "書籍関係"
+];
 var _groupKVS = _groupNameList.reduce(function (memo, current) {
     memo[current] = [];
     return memo;

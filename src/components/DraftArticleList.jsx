@@ -22,9 +22,6 @@ export default React.createClass({
             articles: articleList
         });
     },
-    _addItemToGroup(groupName, item) {
-        CandidateArticleAction.addItemToGroup("ヘッドライン", item);
-    },
     _focusItem(index) {
         ArticleDataAction.moveToIndex(index);
     },

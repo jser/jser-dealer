@@ -7,13 +7,20 @@ var currentReadItemIndex = 0;
 function resetArticleList(data) {
     articleList = data["list"];
 }
+function removeItemAtIndex(index) {
+    articleList.splice(index, 1);
+}
 var store = mcFly.createStore({
     getArticleList() {
         return articleList;
     },
     getCurrentReadItemIndex() {
         return currentReadItemIndex;
+    },
+    getCurrentReadItem() {
+        return this.getArticleList()[this.getCurrentReadItemIndex()];
     }
+
 }, function (payload) {
     function decreaseCount() {
         if (currentReadItemIndex > 0) {
@@ -39,6 +46,12 @@ var store = mcFly.createStore({
             break;
         case Const.MOVE_TO_INDEX:
             currentReadItemIndex = payload.index;
+            break;
+        case Const.ADD_ITEM_TO_GROUP:
+            addItemToGroup(payload.groupName, payload.item);
+            break;
+        case Const.REMOVE_ITEM_AT_INDEX:
+            removeItemAtIndex(payload.index);
             break;
         default:
             return true;

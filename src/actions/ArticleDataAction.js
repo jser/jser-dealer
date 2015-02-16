@@ -21,6 +21,13 @@ var ArticleAction = mcFly.createActions({
         });
     },
 
+    removeItemAtIndex(index) {
+        return {
+            actionType: Const.REMOVE_ITEM_AT_INDEX,
+            index: index
+        }
+    },
+
     moveToNext() {
         return {
             actionType: Const.MOVE_TO_NEXT
