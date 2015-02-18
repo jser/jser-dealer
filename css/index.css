@@ -5624,4 +5624,7 @@ main * {
   border: 1px solid #0000FF;
   font-size: 50px; }
 
+.is-reading {
+  background: #ddd; }
+
 /*# sourceMappingURL=index.css.map */
