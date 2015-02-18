@@ -3,7 +3,7 @@
 import React from 'react';
 import store from "../stores/CandidateArticleStore.js"
 import ArticleDataItem from "./ArticleDataItem.jsx"
-
+import update from "react/lib/update"
 export default React.createClass({
     mixins: [store.mixin],
     getDefaultProps: function () {
@@ -22,15 +22,34 @@ export default React.createClass({
             articles: articleList
         });
     },
+    // D&D
+    moveCard(id, afterId) {
+        var card = this.state.articles.filter(c => c.url === id)[0],
+            afterCard = this.state.articles.filter(c => c.url === afterId)[0],
+            cardIndex = this.state.articles.indexOf(card),
+            afterIndex = this.state.articles.indexOf(afterCard);
+        var stateUpdate = {
+            articles: {
+                $splice: [
+                    [cardIndex, 1],
+                    [afterIndex, 0, card]
+                ]
+            }
+        };
+        this.setState(update(this.state, stateUpdate));
+    },
+
     render() {
-        var items = this.state.articles.map(function (article, index) {
-            return <ArticleDataItem key={index} {...article} />
+        var items = this.state.articles.map((article, index) => {
+            return (<ArticleDataItem key={index}
+                                     moveCard={this.moveCard} {...article} />)
         });
         return (
             <div className="candidate-article-group">
                 <p>{this.props.groupName}</p>
+
                 <div>
-                {items}
+                    {items}
                 </div>
             </div>
         )
