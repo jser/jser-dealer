@@ -18,6 +18,28 @@ var _groupKVS = _groupNameList.reduce(function (memo, current) {
 function addItemToGroup(groupName, item) {
     _groupKVS[groupName].push(item);
 }
+// D&D
+/**
+ * move {@link id} to {@link afterId} + 1.
+ * @param {string} id - the target to move
+ * @param {string} afterId the insert position for target
+ */
+function moveItem(id, afterId) {
+    var card = this.state.articles.filter(c => c.url === id)[0],
+        afterCard = this.state.articles.filter(c => c.url === afterId)[0],
+        cardIndex = this.state.articles.indexOf(card),
+        afterIndex = this.state.articles.indexOf(afterCard);
+    var stateUpdate = {
+        articles: {
+            $splice: [
+                [cardIndex, 1],
+                [afterIndex, 0, card]
+            ]
+        }
+    };
+    this.setState(update(this.state, stateUpdate));
+}
+
 var store = mcFly.createStore({
     getGroupNameList() {
         return _groupNameList;

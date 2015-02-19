@@ -23,7 +23,12 @@ export default React.createClass({
         });
     },
     // D&D
-    moveCard(id, afterId) {
+    /**
+     * move {@link id} to {@link afterId} + 1.
+     * @param {string} id - the target to move
+     * @param {string} afterId the insert position for target
+     */
+    moveItem(id, afterId) {
         var card = this.state.articles.filter(c => c.url === id)[0],
             afterCard = this.state.articles.filter(c => c.url === afterId)[0],
             cardIndex = this.state.articles.indexOf(card),
@@ -40,6 +45,9 @@ export default React.createClass({
     },
 
     render() {
+        /**
+         *
+         */
         var items = this.state.articles.map((article, index) => {
             return (<ArticleDataItem key={index}
                                      moveCard={this.moveCard} {...article} />)
