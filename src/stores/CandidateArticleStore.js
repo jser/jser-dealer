@@ -1,6 +1,7 @@
 // LICENSE : MIT
 "use strict";
 import mcFly from "../flux"
+import _ from "lodash"
 import Const from "../constants/CandidateArticleContants.js"
 var _groupNameList = [
     "ヘッドライン",
@@ -15,6 +16,9 @@ var _groupKVS = _groupNameList.reduce(function (memo, current) {
     return memo;
 }, {});
 
+function setGroup(KVS) {
+    _groupKVS = KVS;
+}
 function addItemToGroup(groupName, item) {
     _groupKVS[groupName].push(item);
 }
@@ -25,19 +29,55 @@ function addItemToGroup(groupName, item) {
  * @param {string} afterId the insert position for target
  */
 function moveItem(id, afterId) {
-    var card = this.state.articles.filter(c => c.url === id)[0],
-        afterCard = this.state.articles.filter(c => c.url === afterId)[0],
-        cardIndex = this.state.articles.indexOf(card),
-        afterIndex = this.state.articles.indexOf(afterCard);
-    var stateUpdate = {
-        articles: {
-            $splice: [
-                [cardIndex, 1],
-                [afterIndex, 0, card]
-            ]
+    var copyGroup = _.clone(_groupKVS, true);
+
+    function findURL(list, url) {
+        return _.findIndex(list, function (object) {
+            if (!object.url) {
+                console.log(object);
+            }
+            return object.url === url;
+        });
+    }
+
+    function removeURLFromList(list, url) {
+        var index = findURL(list, url);
+        if (index === -1) {
+            return;
         }
-    };
-    this.setState(update(this.state, stateUpdate));
+        var removedItem = list[index];
+        _.pullAt(list, index);
+        return removedItem;
+    }
+
+    /**
+     *
+     * @param list insert li
+     * @param url insert point url
+     * @param item insert item
+     * @returns {*}
+     */
+    function insertURLToList(list, url, item) {
+        var index = findURL(list, url);
+        if (index === -1) {
+            return;
+        }
+        list.splice(index, 0, item);
+    }
+
+    var removedItem;
+    _.forEach(copyGroup, function (list) {
+        var item = removeURLFromList(list, id);
+        if (item) {
+            removedItem = item;
+        }
+    });
+    if (removedItem) {
+        _.forEach(copyGroup, function (list) {
+            insertURLToList(list, afterId, removedItem);
+        });
+    }
+    setGroup(copyGroup);
 }
 
 var store = mcFly.createStore({
@@ -56,6 +96,9 @@ var store = mcFly.createStore({
     switch (payload.actionType) {
         case Const.ADD_ITEM_TO_GROUP:
             addItemToGroup(payload.groupName, payload.item);
+            break;
+        case Const.MOVE_ITEM_IN_CANDIDATE:
+            moveItem(payload.id, payload.afterId);
             break;
         default:
             return true;

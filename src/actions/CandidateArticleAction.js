@@ -9,6 +9,13 @@ var CandidateActions = mcFly.createActions({
             groupName: groupName,
             item: item
         };
+    },
+    moveItemInCandidate(id, afterId) {
+        return {
+            actionType: Const.MOVE_ITEM_IN_CANDIDATE,
+            id: id,
+            afterId: afterId
+        };
     }
 });
 export default CandidateActions;

@@ -14,12 +14,13 @@ export default React.createClass({
             title: React.PropTypes.string.isRequired,
             url: React.PropTypes.string.isRequired
         })),
-        onClick: React.PropTypes.func
+        onClick: React.PropTypes.func,
+        isReading: React.PropTypes.bool
     },
     componentDidUpdate: function () {
         if (this.props.isReading) {
             var node = this.getDOMNode();
-            node.scrollIntoView();
+            //node.scrollIntoView();
         }
     },
     statics: {
@@ -35,7 +36,7 @@ export default React.createClass({
                     }
                 },
                 dropTarget: {
-                    over(component, item) {
+                    acceptDrop(component, item) {
                         component.props.moveCard(item.url, component.props.url);
                     }
                 }
