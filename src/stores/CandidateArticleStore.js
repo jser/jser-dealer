@@ -7,7 +7,7 @@ var _groupNameList = [
     "ヘッドライン",
     "アーティクル",
     "スライド、動画関係",
-    "サイト、サービス",
+    "サイト、サービスドキュメント",
     "ソフトウェア、ツール、ライブラリ関係",
     "書籍関係"
 ];
@@ -34,7 +34,7 @@ function moveItem(id, afterId) {
     function findURL(list, url) {
         return _.findIndex(list, function (object) {
             if (!object.url) {
-                console.log(object);
+                console.log("not found url in ", object);
             }
             return object.url === url;
         });
@@ -81,6 +81,9 @@ function moveItem(id, afterId) {
 }
 
 var store = mcFly.createStore({
+    getAllGroup() {
+        return _groupKVS;
+    },
     getGroupNameList() {
         return _groupNameList;
     },

@@ -3,6 +3,7 @@
 import React from 'react';
 import DraftArticleList from "./DraftArticleList.jsx"
 import CandidateArticleList from "./CandidateArticleList.jsx"
+import CandidateArticleToolbar from "./CandidateArticleToolbar.js"
 export default React.createClass({
 
     render: function () {
@@ -12,6 +13,7 @@ export default React.createClass({
                     <DraftArticleList />
                 </div>
                 <div className="candidate-article-list">
+                    <CandidateArticleToolbar />
                     <CandidateArticleList />
                 </div>
             </main>
