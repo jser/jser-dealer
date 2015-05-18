@@ -16,11 +16,26 @@ Handlebars.registerHelper('escape_md', function (text) {
 Handlebars.registerHelper('ttp', function (text) {
     return text.replace(/https?:\/\//i, "");
 });
+
+function isEmpty() {
+
+}
 export function toMarkdown(json) {
     var fs = require("fs");
     var source = fs.readFileSync(__dirname + "/article.handlebars", "utf-8");
     var template = Handlebars.compile(source);
     var result = template({
-        Groups: json
+        Groups: json.filter(function (groups) {
+            var keys = Object.keys(groups);
+            if (keys.length === 0) {
+                return false;
+            }
+            var key = keys[0];
+            var items = groups[key];
+            if (Array.isArray(items) && items.length > 0) {
+                return false;
+            }
+        })
     });
+    console.log(result);
 }

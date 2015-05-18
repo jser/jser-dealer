@@ -55,7 +55,8 @@ export default React.createClass({
             <div {...this.dragSourceFor(ItemTypes.CARD)}
                 {...this.dropTargetFor(ItemTypes.CARD)}
                 className={className}>
-                <a onClick={this.props.onClick}>{this.props.title}</a>
+                <a onClick={this.props.onClick}>{this.props.title} </a>
+                <p className="content">{this.props.tags.join(",")} - {this.props.content}</p>
             </div>
         )
     }

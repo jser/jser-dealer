@@ -1,0 +1,12 @@
+.CandidateArticleGroup {
+  border: 1px solid #5290ff;
+  .group-name {
+    font-size: 1.2em;
+    background-color: #5cd0a7;
+  }
+
+  // 候補のアイテムからは本文は隠す
+  .ArticleDataItem .content {
+    display: none;
+  }
+}

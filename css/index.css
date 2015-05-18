@@ -5619,12 +5619,21 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-main * {
-  display: block;
-  border: 1px solid #0000FF;
+main {
   font-size: 24px; }
 
 .is-reading {
   background: #ddd; }
+
+.ArticleDataItem {
+  border: 1px solid #0000FF; }
+
+.CandidateArticleGroup {
+  border: 1px solid #5290ff; }
+  .CandidateArticleGroup .group-name {
+    font-size: 1.2em;
+    background-color: #5cd0a7; }
+  .CandidateArticleGroup .ArticleDataItem .content {
+    display: none; }
 
 /*# sourceMappingURL=index.css.map */

@@ -35,8 +35,8 @@ export default React.createClass({
                                      moveCard={this.moveCard} {...article} />)
         });
         return (
-            <div className="candidate-article-group">
-                <p>{this.props.groupName}</p>
+            <div className="CandidateArticleGroup">
+                <p className="group-name">{this.props.groupName}</p>
 
                 <div>
                     {items}
