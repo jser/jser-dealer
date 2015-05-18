@@ -6,7 +6,6 @@ import ArticleDataAction from "./actions/ArticleDataAction.js"
 import CandidateArticleAction from "./actions/CandidateArticleAction.js"
 import CandidateArticleStore from "./stores/CandidateArticleStore.js"
 import ActionDataStore from "./stores/ArticleDataStore.js"
-
 document.body.addEventListener("keydown", function (event) {
     var jKey = 74, kKey = 75;
     var numberKeyBase = 49; // 49 : 1, 50 : 2...
