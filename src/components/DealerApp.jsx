@@ -4,6 +4,7 @@ import React from 'react';
 import DraftArticleList from "./DraftArticleList.jsx"
 import CandidateArticleList from "./CandidateArticleList.jsx"
 export default React.createClass({
+
     render: function () {
         return (
             <main>

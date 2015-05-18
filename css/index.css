@@ -5622,7 +5622,7 @@ button.close {
 main * {
   display: block;
   border: 1px solid #0000FF;
-  font-size: 50px; }
+  font-size: 24px; }
 
 .is-reading {
   background: #ddd; }

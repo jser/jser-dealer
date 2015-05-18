@@ -2,6 +2,7 @@
 import React from 'react';
 import { DragDropMixin } from 'react-dnd';
 import ItemTypes  from "./ItemType.js"
+import ArticleDataStore from "../stores/ArticleDataStore.js"
 export default React.createClass({
     mixins: [DragDropMixin],
     propTypes: {
@@ -17,12 +18,16 @@ export default React.createClass({
         onClick: React.PropTypes.func,
         isReading: React.PropTypes.bool
     },
-    componentDidUpdate: function () {
-        if (this.props.isReading) {
+    componentWillMount: function () {
+        ArticleDataStore.on("scrollToItem", (item) => {
+            if (item.url !== this.props.url) {
+                return
+            }
             var node = this.getDOMNode();
-            //node.scrollIntoView();
-        }
+            node.scrollIntoView();
+        });
     },
+
     statics: {
         configureDragDrop(register) {
             register(ItemTypes.CARD, {

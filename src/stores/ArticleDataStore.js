@@ -10,6 +10,7 @@ function resetArticleList(data) {
 function removeItemAtIndex(index) {
     articleList.splice(index, 1);
 }
+
 var store = mcFly.createStore({
     getArticleList() {
         return articleList;
@@ -22,15 +23,22 @@ var store = mcFly.createStore({
     }
 
 }, function (payload) {
+    store.setMaxListeners(200);
+    function scrollToIndex(index) {
+        store.emit("scrollToItem", articleList[index]);
+    }
+
     function decreaseCount() {
         if (currentReadItemIndex > 0) {
             currentReadItemIndex -= 1;
+            scrollToIndex(currentReadItemIndex);
         }
     }
 
     function increaseCount() {
         if (currentReadItemIndex <= articleList.length) {
             currentReadItemIndex += 1;
+            scrollToIndex(currentReadItemIndex);
         }
     }
 
